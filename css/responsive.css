@@ -1,25 +1,134 @@
  /* Extra small devices (portrait phones, less than 576px) */
  @media (max-width: 575.98px) {
+/* ---------Navbar  */
+.navbar-nav .nav-item .nav-link {
+  font-size: 1.6rem !important;
+  padding: 1rem 0;
+}
+.navbar-collapse{
+  padding: 2rem 2rem !important;
+}
+ .dropdown .dropdown-menu {
+  transform: scale(1, 0);
+  display: none;
+  margin-top: 10px;
+}
+.dropdown:hover .dropdown-menu {
+  transform: scale(1);
+  display: block;
+}
 
+.navbar-toggler {
+  border: none;
+  font-size: 1.6rem;
+  color: var(--color-white) !important;
+  background-color: var(--color-cyan);
+  padding: .5rem;
+  border-radius: .5rem !important;
+}
+.navbar-toggler:focus{
+  border: none !important;
+  outline: none !important;
+  border-radius: 0 !important;
+  box-shadow: none;
+  border-radius: .5rem !important;
+} 
+.navbar-toggler-icon {
+  background-image: url("../assets/icons8-hamburger.svg");
+}
+
+   
   
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
  
+   /* ---------Navbar  */
+   .navbar-nav .nav-item .nav-link {
+    font-size: 1.6rem !important;
+    padding: 1rem 0;
+  }
+  .navbar-collapse{
+    padding: 2rem 0;
+  }
+   .dropdown .dropdown-menu {
+    transform: scale(1, 0);
+    display: none;
+    margin-top: 10px;
+  }
+  .dropdown:hover .dropdown-menu {
+    transform: scale(1);
+    display: block;
+  }
+
+  .navbar-toggler {
+    border: none;
+    font-size: 1.6rem;
+    color: var(--color-white) !important;
+    background-color: var(--color-cyan);
+    padding: .5rem;
+    border-radius: .5rem !important;
+  }
+  .navbar-toggler:focus{
+    border: none !important;
+    outline: none !important;
+    border-radius: 0 !important;
+    box-shadow: none;
+    border-radius: .5rem !important;
+  } 
+.navbar-toggler-icon {
+    background-image: url("../assets/icons8-hamburger.svg");
+  }
   
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   
+   /* ---------Navbar  */
+   .navbar-nav .nav-item .nav-link {
+    font-size: 1.6rem !important;
+    padding: 1.4rem 0px;
+  }
+  .navbar-collapse{
+    padding: 2rem 0;
+  }
+   .dropdown .dropdown-menu {
+    transform: scale(1, 0);
+    display: none;
+    margin-top: 10px;
+  }
+  .dropdown:hover .dropdown-menu {
+    transform: scale(1);
+    display: block;
+  }
+
+  .navbar-toggler {
+    border: none;
+    font-size: 1.6rem;
+    color: var(--color-white) !important;
+    background-color: var(--color-cyan);
+    padding: .5rem;
+    border-radius: .5rem !important;
+  }
+  .navbar-toggler:focus{
+    border: none !important;
+    outline: none !important;
+    border-radius: 0 !important;
+    box-shadow: none;
+    border-radius: .5rem !important;
+  } 
+.navbar-toggler-icon {
+    background-image: url("../assets/icons8-hamburger.svg");
+  }
+
   
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  
-  
+ 
 }
 /*Extra Large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {

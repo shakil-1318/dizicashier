@@ -39,7 +39,6 @@
 body {
   background-color: var(--color-white);
   font-family: "Barlow", sans-serif;
-  /* font-family: 'Barlow Condensed', sans-serif; */
   line-height: 1.6;
 }
 html {
@@ -91,22 +90,20 @@ textarea {
 .top-nav span {
   vertical-align: middle;
 }
-
-.social-link a {
-  width: 34px;
-  height: 34px;
-  background-color: rgba(255, 255, 255, 0.3);
-  color: white;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  border-radius: 100%;
+select{
+  border: none;
+  border-radius: 10px;
+  padding: 1px 1px;
+  outline: none;
 }
-
-.social-link a:hover {
-  background-color: white;
-  color: var(--color-cyan);
+option{
+  background-color: var(--color-cyan);
+  color: white;
+  outline: none;
+}
+option:hover{
+  background-color: var(--color-cyan) !important;
+  color: white;
 }
 
 .navbar {
@@ -118,10 +115,10 @@ textarea {
   object-fit: cover;
 }
 
-.nav-item .nav-link{
-font-size: 1.6rem;
-font-weight: 500 !important;
-padding: 1.5rem 2rem;
+.navbar-nav .nav-item .nav-link {
+  font-size: 1.6rem !important;
+  padding: 20px 16px;
+  color: #232323;
 }
 
 .navbar .nav-item .nav-link:hover,
@@ -185,50 +182,8 @@ padding: 1.5rem 2rem;
   transform: scale(1);
 }
 
-/* @media (max-width: 576px) {
-  .dropdown-menu {
-    border: 0px solid rgba(0, 0, 0, 0.15) !important;
-    background-color: #fafafa;
-  }
-  
-  .dropdown:hover .dropdown-menu {
-    display: block;
-  }
-  
-} */
 
 
-@media (max-width: 991px) {
-  .dropdown .dropdown-menu {
-    transform: scale(1, 0);
-    display: none;
-    margin-top: 10px;
-  }
-  .dropdown:hover .dropdown-menu {
-    transform: scale(1);
-    display: block;
-  }
-
-  .navbar-toggler {
-    border: none;
-    font-size: 1.6rem;
-    color: var(--color-white) !important;
-    background-color: var(--color-cyan);
-    padding: .5rem;
-    border-radius: .5rem !important;
-  }
-  .navbar-toggler:focus{
-    border: none !important;
-    outline: none !important;
-    border-radius: 0 !important;
-    box-shadow: none;
-    border-radius: .5rem !important;
-  } 
-.navbar-toggler-icon {
-    background-image: url("../assets/icons8-hamburger.svg");
-  }
-  
-}
 
 
 
