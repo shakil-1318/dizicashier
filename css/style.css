@@ -338,3 +338,38 @@ option:hover{
   width: unset;
 }
 /* ------------------------Milestone End */
+
+/* ------------------------Client Start */
+.client{
+  padding: 40px 0;
+}
+@keyframes scroll {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-200px * 7));
+  }
+}
+.client__logo{
+  animation: scroll 40s linear infinite;
+  width: calc(250px * 14);
+  padding: 20px 0;
+}
+.client__logo--slide{
+  width: 200px;
+  height: 100px;
+  perspective: 100px;
+}
+.client__logo--slide img{
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-light);
+  padding: 10px;
+  border-radius: 50%;
+  transition: all .3s ease;
+}
+.client__logo--slide:hover img{
+transform: translateZ(10px);
+}
+/* ------------------------Client End */
