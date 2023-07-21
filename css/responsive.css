@@ -14,9 +14,7 @@
   font-size: 1.6rem !important;
   padding: 1rem 0;
 }
-.navbar-collapse{
-  padding: 2rem 2rem !important;
-}
+
  .dropdown .dropdown-menu {
   transform: scale(1, 0);
   display: none;
@@ -84,9 +82,7 @@ width: 4rem;
     font-size: 1.6rem !important;
     padding: 1rem 0;
   }
-  .navbar-collapse{
-    padding: 2rem 0;
-  }
+
    .dropdown .dropdown-menu {
     transform: scale(1, 0);
     display: none;
@@ -155,9 +151,7 @@ width: 4rem;
     font-size: 1.6rem !important;
     padding: 1.4rem 0px;
   }
-  .navbar-collapse{
-    padding: 2rem 0;
-  }
+
    .dropdown .dropdown-menu {
     transform: scale(1, 0);
     display: none;
