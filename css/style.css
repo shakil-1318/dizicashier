@@ -11,20 +11,22 @@
 
   font-size: 62.5%;
   /*----------*----------*----------* Website Theme */
+  --color-cyan: #17a2b8;
+  --color-green: #28a745;
   --color-blue: #007bff;
   --color-indigo: #6610f2;
   --color-purple: #6f42c1;
   --color-pink: #e83e8c;
   --color-red: #dc3545;
   --color-orange: #fd7e14;
-  --color-green: #28a745;
   --color-teal: #20c997;
-  --color-cyan: #17a2b8;
-  --color-light: #f8f9fa;
   --color-dark: #343a40;
-  --color-white: #ffffff;
   --color-black: #161616;
-
+  --color-light: #f8f9fa;
+  --color-white: #ffffff;
+  --color-text: #7f7f7f;
+  --color-border: #eaecee;
+  --color-box-shadow: 0px 20px 30px 0px rgba(24, 32, 40, 0.05);
 
 }
 
@@ -76,10 +78,19 @@ textarea {
 .sec-link {
   display: inline;
   background-color: var(--color-green);
-  /* background-color: rgb(40, 167, 69); */
+  font-weight: 500;
   font-size: 1.5rem;
   padding: 1rem 3rem;
   color: rgb(255, 255, 255);
+}
+.sec-sub-title{
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--color-black);
+}
+.sec-para{
+  font-size: 1.6rem;
+  color: var(--color-text);
 }
 
 
@@ -303,3 +314,27 @@ option:hover{
   }
 }
 /* -----------Hero End */
+
+/* ------------------------Milestone Start */
+.milestone{
+
+}
+.single__milestone{
+  /* border: 1px solid var(--color-border); */
+  padding: 2rem 1rem;
+  transition: all .5s ease-in-out;
+}
+.single__milestone:hover{
+  /* border: 1px solid transparent; */
+  box-shadow: var(--color-box-shadow);
+}
+.single__milestone h5{
+  margin: 2rem 0 1.2rem 0;
+}
+.single__milestone h5{
+
+}
+.single__milestone img{
+  width: unset;
+}
+/* ------------------------Milestone End */
