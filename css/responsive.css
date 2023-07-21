@@ -8,6 +8,13 @@
     font-size: 1.4rem;
     padding: 1rem 2rem;
 }
+  .service__content--pack{
+    display: none;
+  }
+  .sec-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
   /* -------Common Style-------- */
 /* ---------Navbar  */
 .navbar-nav .nav-item .nav-link {
@@ -75,6 +82,13 @@ width: 4rem;
    .padd{
     padding: 40px 20px;
   }
+  .service__content--pack{
+    display: none;
+  }
+  .sec-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
   /* -------Common Style-------- */
  
    /* ---------Navbar  */
@@ -144,6 +158,12 @@ width: 4rem;
   .padd{
     padding: 60px 0;
   }
+  .service__content--pack{
+    display: none;
+  }
+  .sec-title {
+    font-size: 2.2rem;
+  }
   /* ----common Style */
   
    /* ---------Navbar  */
@@ -202,6 +222,10 @@ width: 4rem;
   width: 4rem;
 }
   /* Hero Section */
+
+  /* -----Service Style */
+ 
+  /* -----Service Style */
 
   
 }
