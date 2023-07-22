@@ -112,10 +112,13 @@ textarea {
 }
 
 .top-nav p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: 0;
   display: inline-block;
   margin-right: 16px;
+  color: var(--color-white);
+}
+.top-nav p a{
   color: var(--color-white);
 }
 
