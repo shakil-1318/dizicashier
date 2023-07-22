@@ -83,6 +83,11 @@ textarea {
   padding: 1rem 3rem;
   color: rgb(255, 255, 255);
 }
+.sec-head-title{
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--color-black);
+}
 .sec-title{
   font-size: 2.4rem;
   font-weight: 600;
@@ -394,3 +399,98 @@ transform: translateZ(10px);
   color: rgba(17, 18, 50, 0.05);
 }
 /* ------------------------Services End */
+
+/* -------------------------Package Start */
+.package{
+
+}
+.package__content{
+  margin-bottom: 6rem;
+}
+.package__content--title{
+  margin-bottom: 2rem;
+}
+.package__content--para{
+  
+}
+.package .single__package{
+  text-align: center;
+    padding: 4rem 4rem 3rem;
+    border: 1px solid var(--color-border);
+    border-image: initial;
+    transition: all 0.6s ease 0s;
+    box-sizing: border-box;
+}
+.single__package img{
+  margin-bottom: 1.8rem;
+  width: 7rem;
+  height: 6.5rem;
+}
+.single__package p{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-black);
+  margin-bottom: 2.5rem;
+}
+.single__package h3{
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--color-black);
+  margin-bottom: 5px;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-border);
+}
+
+.single__package h3 span{
+    font-size: 16px;
+    color: var(--color-text);
+    font-weight: 500;
+}
+.single__package .package__list{
+  text-align: left;
+  padding: 1.2rem 0rem 2rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.single__package .package__list li{
+  font-size: 1.4rem;
+  color: var(--color-text);
+  text-transform: capitalize;
+  margin: 1rem 0;
+}
+.single__package .package__list li .fa-circle-check{
+  color: var(--color-cyan);
+  margin-right: 3px;
+}
+.single__package .package__list li .fa-circle-xmark{
+  color: var(--color-red);
+  margin-right: 3px;
+}
+.package__list  a{
+  color: var(--color-cyan);
+  border-bottom: 1px solid var(--color-cyan);
+  border-radius: 0 !important;
+  margin: 0px !important;
+}
+.single__package .sub-btn{
+  padding-top: 1rem !important;
+}
+.single__package .package__btn{
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 2.5rem;
+  display: inline-block;
+  color: rgb(24, 32, 40);
+  transition: all 0.5s ease 0s;
+}
+
+.package .single__package:hover{
+  box-shadow: var(--color-box-shadow);
+  border: 1px solid transparent;
+  border-image: initial;
+}
+.package .single__package:hover .package__btn{
+  color: var(--color-green);
+}
+/* -------------------------Package End */
