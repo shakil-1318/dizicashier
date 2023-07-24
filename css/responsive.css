@@ -83,6 +83,12 @@ width: 4rem;
   margin-bottom: 2rem;
 }
 /* -----Package Style */
+
+/* -----------Testimonial Style */
+#customers-testimonials .item {
+  padding: 10px 10px;
+}
+/* -----------Testimonial Style */
    
   
 }
