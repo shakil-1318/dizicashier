@@ -89,6 +89,15 @@ width: 4rem;
   padding: 10px 10px;
 }
 /* -----------Testimonial Style */
+
+/* Footer */
+.footer_part .single_footer_part {
+  margin-bottom: 2rem;
+  }
+  .footer_part .single_footer_part h4 {
+    margin-bottom: 1.5rem;
+}
+/* Footer */
    
   
 }
@@ -174,6 +183,15 @@ width: 4rem;
   margin-bottom: 3rem;
 }
 /* -----Package Style */
+
+/* Footer */
+.footer_part .single_footer_part {
+  margin-bottom: 2rem;
+  }
+  .footer_part .single_footer_part h4 {
+    margin-bottom: 1.5rem;
+}
+/* Footer */
 
 
   
@@ -263,7 +281,33 @@ width: 4rem;
 }
   /* -----Package Style */
 
+  /* Footer */
+  .footer_part .single_footer_part {
+    margin-bottom: 2rem;
+    }
+    .footer_part .single_footer_part h4 {
+      margin-bottom: 1.5rem;
+  }
+  /* Footer */
+
   
+}
+@media (max-width: 991px){
+  .footer_part {
+    padding: 70px 20px 25px;
+    background-image: url(none);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f7f7f7;
+}
+.footer_part .copyright_text {
+    text-align: center !important;
+}
+.footer_part .footer_icon {
+  text-align: center;
+  float: none;
+}
 }
 
 /* Large devices (desktops, 992px and up) */

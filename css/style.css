@@ -285,6 +285,7 @@ option:hover{
   height: 6rem;
   width: 6rem;
   border-radius: 100%;
+  cursor: pointer;
 }
 .hero__video__in--btn::after {
   content: "";
@@ -617,13 +618,112 @@ margin: 0;
   transform: translate(-50%, -50%);
   cursor: pointer;
 }
-/* .modal-body{
-  background-color: var(--color-cyan);
-border: none;
-} */
+
 .modal-content{
   background: transparent !important;
   border: none !important;
 }
 
 /* ---------------------------Review End */
+
+/* ---------------------------Login Start */
+.login{
+
+}
+.form-control {
+  padding: 1.2rem 1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+.form-select .form-control:focus{
+  border: 1px solid var(--color-cyan);
+}
+.form-select:focus{
+  border: 1px solid var(--color-cyan);
+}
+.form-select {
+  padding: 1.2rem 2.25rem 1.2rem .75rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+/* ---------------------------Login End */
+/* ---------------------------Footer Start */
+.footer_part {
+  background-image: url(../assets/footer_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 0px 25px;
+}
+
+.footer_logo_iner img{
+  width: 175px;
+  height: 35px;
+  margin-bottom: 3.5rem;
+}
+.single_footer_part p{
+  line-height: 2.8rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.footer_part .single_footer_part h4 {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.list-unstyled li i{
+  color: var(--color-cyan);
+  margin-right: 4px;
+  font-size: 1.4rem;
+}
+.footer_part .single_footer_part .list-unstyled li a {
+  color: var(--color-text);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  color: var(--color-text);
+  transition: all .3s ease;
+}
+.footer_part .single_footer_part .list-unstyled li a:hover {
+  color: var(--color-cyan);
+}
+.footer_part hr {
+  background-color: var(--color-text);
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.footer_part .copyright_text p {
+  font-size: 1.4rem;
+  color: var(--color-text);
+}
+.footer_part .footer_icon {
+  text-align: right;
+}
+.footer_part .footer_icon li {
+  display: inline-block;
+}
+.footer_part .footer_icon li a {
+  font-size: 14px;
+  color: var(--color-text) !important;
+  margin-left: 30px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.list-unstyled li .single_social_icon i {
+  color: var(--color-text);
+  margin-right: 4px;
+  font-size: 1.6rem;
+  transition: all .3s ease;
+}
+.list-unstyled li .single_social_icon i:hover {
+  color: var(--color-cyan);
+}
+
+/* ---------------------------Footer End */
+
