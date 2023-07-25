@@ -93,6 +93,7 @@ textarea {
   font-size: 2.4rem;
   font-weight: 600;
   margin-bottom: 3rem;
+  line-height: 3.6rem;
 }
 .sec-sub-title{
   font-size: 1.6rem;
@@ -602,3 +603,27 @@ margin: 0;
   padding: 20px 0;
 }
 /* -------------------------Industry Blog End */
+
+/* ---------------------------Review Start */
+.single__video{
+  position: relative;
+}
+.play-btn{
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+/* .modal-body{
+  background-color: var(--color-cyan);
+border: none;
+} */
+.modal-content{
+  background: transparent !important;
+  border: none !important;
+}
+
+/* ---------------------------Review End */
