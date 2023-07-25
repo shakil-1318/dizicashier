@@ -102,7 +102,7 @@ textarea {
 .sec-para{
   font-size: 1.6rem;
   color: var(--color-text);
-  line-height: 3.6rem;
+  line-height: 3.4rem;
 }
 
 
@@ -450,23 +450,23 @@ transform: translateZ(10px);
     color: var(--color-text);
     font-weight: 500;
 }
-.single__package .package__list{
+.package__list{
   text-align: left;
   padding: 1.2rem 0rem 2rem;
   border-bottom: 1px solid var(--color-border);
 }
 
-.single__package .package__list li{
+ .package__list li{
   font-size: 1.4rem;
   color: var(--color-text);
   text-transform: capitalize;
   margin: 1rem 0;
 }
-.single__package .package__list li .fa-circle-check{
+.package__list li .fa-circle-check{
   color: var(--color-cyan);
   margin-right: 3px;
 }
-.single__package .package__list li .fa-circle-xmark{
+.package__list li .fa-circle-xmark{
   color: var(--color-red);
   margin-right: 3px;
 }
@@ -533,7 +533,7 @@ transform: translateZ(10px);
 #customers-testimonials .item {
   text-align: center;
   padding: 10px 50px;
-   margin-bottom:30px;
+   margin-bottom:40px;
   opacity: .2;
   -webkit-transform: scale3d(0.8, 0.8, 1);
   transform: scale3d(0.8, 0.8, 1);
@@ -575,3 +575,30 @@ display: inline-block;
   width: 20px;
 }
 /* -------------------------Testimonial End */
+
+/* -------------------------Industry Blog Start */
+.single__industry{
+  box-shadow: var(--color-box-shadow);
+}
+.single__industry img{
+  margin-bottom: 2.4rem;
+}
+.industry__content{
+  padding: 0 2rem 1rem 2rem;
+}
+.industry__content--title{
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-black);
+  margin: 1.2rem 0 1.2rem 0;
+}
+.industry__content--para{
+margin: 0;
+}
+.single__industry .package__list{
+  /* border-bottom: none; */
+}
+.industry__content--btn{
+  padding: 20px 0;
+}
+/* -------------------------Industry Blog End */
