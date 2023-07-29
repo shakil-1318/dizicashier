@@ -30,13 +30,7 @@
 
 }
 
-.section__padding {
-  padding: 6rem 10rem;
-}
 
-.section__margin {
-  margin: 4rem 6rem;
-}
 
 body {
   background-color: var(--color-white);
@@ -73,7 +67,7 @@ textarea {
   border-radius: 0.5rem;
 }
 .padd{
-  padding: 90px 0;
+  padding: 60px 0;
 }
 .sec-link {
   display: inline;
@@ -107,6 +101,38 @@ textarea {
 }
 
 
+.to-top {
+  background: var(--color-cyan);
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:var(--color-white);
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+}
+.to-top i{
+  font-size: 20px;
+}
+.to-top:hover{
+  background-color: #28a745;
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
+
+
 /* navbar start */
 .top-nav {
   background-color: var(--color-cyan);
@@ -122,6 +148,8 @@ textarea {
 }
 .top-nav p a{
   color: var(--color-white);
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .top-nav i,
@@ -145,7 +173,7 @@ option:hover{
 }
 
 .navbar {
-  padding: 2rem 0 2rem 0;
+  padding: 1.5rem 0 1.5rem 0;
   box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
 }
 .navbar-brand img{
@@ -155,7 +183,7 @@ option:hover{
 
 .navbar-nav .nav-item .nav-link {
   font-size: 1.6rem !important;
-  padding: 20px 16px;
+  padding: 10px 16px;
   color: #232323;
 }
 
@@ -224,10 +252,11 @@ option:hover{
 /* ----------Nav End*/
 /* -----------Hero Start */
 .hero{
+  padding: 90px 0;
   background-image: linear-gradient(360deg, rgba(23, 163, 184, 0.2) , #fff);
 }
 .hero__content{
-  max-width: 490px;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -272,6 +301,7 @@ option:hover{
   color: rgb(23, 162, 184);
   font-size: 2rem;
   font-weight: 700;
+  display: none;
 }
 .hero__video__in--btn {
   background-color: rgb(23, 162, 184) !important;
@@ -330,6 +360,13 @@ option:hover{
     transform: scale(1.5);
   }
 }
+.hero__theme{
+  color: #030524;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
 /* -----------Hero End */
 
 /* ------------------------Milestone Start */
@@ -731,7 +768,7 @@ margin: 0;
   padding: 10px;
   border-radius: 50px;
   margin-right: 4px;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   transition: all .3s ease;
 }
 .list-unstyled li .single_social_icon .fa-facebook:hover {
