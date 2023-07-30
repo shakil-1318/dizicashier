@@ -733,7 +733,7 @@ margin: 0;
 }
 .footer_part hr {
   background-color: var(--color-text);
-  margin-top: 50px;
+  margin-top: 25px;
   margin-bottom: 25px;
 }
 .footer_part .copyright_text p {
