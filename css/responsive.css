@@ -22,6 +22,9 @@
   }
   /* -------Common Style-------- */
 /* ---------Navbar  */
+.navbar-nav {
+  padding: 20px 0;
+}
 .navbar-nav .nav-item .nav-link {
   font-size: 1.6rem !important;
   padding: 1rem 0;
