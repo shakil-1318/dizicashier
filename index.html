@@ -14,14 +14,20 @@
 
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500&display=swap"
-    rel="stylesheet">
+    rel="stylesheet"> -->
+  <link href="css/default.css" rel="stylesheet" id="color-opt" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.maateen.me/charukola-ultra-light/font.css" rel="stylesheet">
 
   <!-- Css Link -->
   <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/responsive.css">
 
@@ -45,21 +51,22 @@
             <a href="tel:015 4444 5555"><span> 015 4444 5555 </span></a>
           </p> -->
         </div>
-        <div class="col-auto d-flex align-items-center">
+        <div class="col-auto d-flex align-items-center flex-wrap">
           <p>
             <i class="fa-solid fa-phone"></i>
             <a href="tel:015 3333 4444"><span> 015 3333 4444 </span></a>
           </p>
           <p>
-            <i class="fa-solid fa-phone"></i>
             <a href="tel:015 4444 5555"><span> 015 4444 5555 </span></a>
           </p>
-          <div class="custom-select">
-            <select>
-              <option value="0">BN</option>
-              <option value="1">EN</option>
-            </select>
-          </div>
+          <p class="mt-lg-0 mt-md-0 mt-sm-3">
+            <i class="fa-solid fa-globe"></i>
+            <a href="#"> <span>EN/BN</span></a>
+          </p>
+          <!-- <div class="language__select">
+            <i class="fa-solid fa-globe"></i>
+            <span>EN/BN</span>
+          </div> -->
         </div>
       </div>
     </div>
@@ -105,8 +112,7 @@
 
         <div class="gap-4 mt-lg-0 mt-sm-3 mt-3">
           <a href="#" class="btn btn-primary ms-lg-4 ">লগইন</a>
-          <a href="#" class="btn btn-primary-free ms-4">ফ্রি ট্রায়াল
-          </a>
+          <a href="#" class="btn btn-primary-free ms-4">ফ্রি ট্রায়াল নিন </a>
         </div>
       </div>
     </div>
@@ -123,7 +129,7 @@
             <p class="hero__content--para">ক্রয় থেকে বিক্রয় পর্যন্ত সবকিছু করুন ডিজি ক্যাশিয়ারে </p>
             <div class="hero__content--link">
               <a href="#" class="hero__content--link__demo sec-link">ডেমো রিকুয়েস্ট </a>
-              <a href="#" class="hero__content--link__free sec-link">ফ্রি ট্রায়াল </a>
+              <a href="#" class="hero__content--link__free sec-link">ফ্রি ট্রায়াল নিন</a>
             </div>
           </div>
         </div>
@@ -135,9 +141,11 @@
                 data-bs-target="#hero-video">
                 <i class="fa-solid fa-circle-play"></i>
               </a>
-              <span>হিসাব এখন হাতের মুঠোই</span>
             </div>
           </figure>
+          <div class="text-center banner__text-moto">
+            <img loading="lazy" src="./assets/banner_text_moto.png" alt="banner-text">
+          </div>
           <!-- Modal -->
           <div class="modal fade" id="hero-video">
             <div class="modal-dialog modal-dialog-centered">
@@ -152,7 +160,7 @@
             </div>
           </div>
           <!-- Modal -->
-          <p class="hero__theme">হিসাব এখন হাতের মুঠোই</p>
+          <!-- <p class="hero__theme">হিসাব এখন হাতের মুঠোই</p> -->
         </div>
       </div>
     </div>
@@ -166,7 +174,7 @@
         <!-- Single milestone -->
         <div class="col-lg-3 col-sm-6">
           <div class="single__milestone">
-            <img loading="lazy" src="./assets/milestone/review.png" alt="review">
+            <h3 class="single__milestone--title">4.8 +</h3>
             <h5 class="single__milestone--title sec-sub-title">কাস্টমার রিভিউ রেটিং</h5>
             <p class="single__milestone--para sec-para">গুগল প্লে স্টোরে</p>
           </div>
@@ -175,7 +183,7 @@
         <!-- Single milestone -->
         <div class="col-lg-3 col-sm-6">
           <div class="single__milestone">
-            <img loading="lazy" src="./assets/milestone/user.png" alt="user">
+            <h3 class="single__milestone--title">500 +</h3>
             <h5 class="single__milestone--title sec-sub-title">একটিভ ইউজার</h5>
             <p class="single__milestone--para sec-para">১০০% সেটিস‌্ফাইড ক্লায়েন্টস</p>
           </div>
@@ -183,8 +191,11 @@
         <!-- Single milestone -->
         <!-- Single milestone -->
         <div class="col-lg-3 col-sm-6">
-          <div class="single__milestone">
-            <img loading="lazy" src="./assets/milestone/language.png" alt="language">
+          <div class="single__milestone text-center">
+            <div class=" single__milestone--img">
+              <img src="./assets/book-open.svg" alt="book-open">
+            </div>
+            <!-- <h3 class="single__milestone--title">500 +</h3> -->
             <h5 class="single__milestone--title sec-sub-title">বাংলা ও ইংরেজি ভাষা</h5>
             <p class="single__milestone--para sec-para">উভয় ভাষায় ব্যবহার করা যায়</p>
           </div>
@@ -193,7 +204,10 @@
         <!-- Single milestone -->
         <div class="col-lg-3 col-sm-6">
           <div class="single__milestone">
-            <img loading="lazy" src="./assets/milestone/lap-mob.png" alt="mobile-laptop">
+            <div class=" single__milestone--img d-flex align-items-center justify-content-center">
+              <img src="./assets/laptop.svg" alt="">
+              <img src="./assets/mobile-android.svg" alt="mobile-laptop">
+            </div>
             <h5 class="single__milestone--title sec-sub-title">মোবাইল এবং ওয়েব এপ্লিকেশন</h5>
             <p class="single__milestone--para sec-para">রিমোটলি ব্যবহার করা যায়</p>
           </div>
