@@ -73,6 +73,9 @@
 font-size: 1.6rem;
 margin-bottom: 2rem;
 }
+.hero__video{
+  margin-top: 2rem;
+}
 .hero__video__in span {
 font-size: 1rem;
 display: block;
