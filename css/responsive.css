@@ -22,6 +22,12 @@
   }
   /* -------Common Style-------- */
 /* ---------Navbar  */
+.top-nav{
+  padding: 1rem 1.5rem;
+}
+.navbar {
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
 .navbar-nav {
   padding: 20px 0;
 }
@@ -44,7 +50,7 @@
   border: none;
   font-size: 1.6rem;
   color: var(--color-white) !important;
-  background-color: var(--color-cyan);
+  background-color: var(--color-blue);
   padding: .5rem;
   border-radius: .5rem !important;
 }
