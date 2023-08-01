@@ -78,7 +78,9 @@ textarea {
   font-size: 1.5rem;
   padding: 1rem 2.5rem;
   color: rgb(255, 255, 255);
+  transition: all .3s ease;
 }
+
 .sec-head-title{
   font-size: 3rem;
   font-weight: 900;
@@ -104,7 +106,7 @@ textarea {
 
 
 .to-top {
-  background: var(--color-cyan);
+  background: var(--color-blue);
   position: fixed;
   bottom: 16px;
   right:32px;
@@ -125,7 +127,7 @@ textarea {
   font-size: 20px;
 }
 .to-top:hover{
-  background-color: #28a745;
+  background-color: #01568a;
 }
 
 .to-top.active {
@@ -144,11 +146,15 @@ textarea {
   color: var(--color-blue);
 }
 .top-nav p {
-  font-size: 1.5rem;
-  margin: 0 0 0 1.5rem;
+  font-size: 1.6rem;
+  margin-left: 1.5rem;
+  margin-bottom: 0;
+}
+.top-nav p:first-child {
+  margin-left: 0;
 }
 .top-nav p a{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: var(--color-black);
 }
 
@@ -264,19 +270,20 @@ textarea {
   flex-direction: row !important;
   gap: 2rem;
 }
-.hero__content--link__demo:hover{
-  background-color: #01568a  !important;
-  box-shadow: 0 3px 5px 0 rgba(0, 119, 192, 0.3);
-  transform: translateY(-3px);
-}
-.hero__content--link__free{
-  background-color: #28c54c !important;
+.hero__content--link__demo{
+  background-color: #28c54c;
   border: none;
   transition: all .3s ease;
 }
-.hero__content--link__free:hover{
+.hero__content--link__demo:hover{
   background-color: #1da33b !important;
   box-shadow: 0 3px 5px 0 rgba(29, 163, 58, 0.3);
+  transform: translateY(-3px);
+}
+
+.hero__content--link__free:hover{
+  background-color: #01568a  !important;
+  box-shadow: 0 3px 5px 0 rgba(0, 119, 192, 0.3);
   transform: translateY(-3px);
 }
 
@@ -447,8 +454,7 @@ transform: translateZ(10px);
 
 /* ------------------------Services Start */
 .services{
-  /* background-color: var(--color-light); */
-
+  padding: 20px 0;
 }
 .service__content{
 }
@@ -457,6 +463,16 @@ transform: translateZ(10px);
   font-size: 8rem;
   font-weight: bold;
   color: rgba(17, 18, 50, 0.05);
+}
+.link__free--trial{
+  background-color: var(--color-blue);
+  border: none;
+  transition: all .3s ease;
+}
+.link__free--trial:hover{
+  background-color: #01568a  !important;
+  box-shadow: 0 3px 5px 0 rgba(0, 119, 192, 0.3);
+  transform: translateY(-3px) !important;
 }
 /* ------------------------Services End */
 

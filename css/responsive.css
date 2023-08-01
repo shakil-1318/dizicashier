@@ -1,6 +1,7 @@
  /* Extra small devices (portrait phones, less than 576px) */
  @media (max-width: 575.98px) {
   /* -------Common Style-------- */
+  
   .padd{
     padding: 40px 20px;
   }
@@ -25,6 +26,7 @@
 .top-nav{
   padding: 1rem 1.5rem;
 }
+
 .navbar {
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
@@ -92,10 +94,15 @@ line-height: 48px;
 height: 4rem;
 width: 4rem;
 }
-.hero__theme{
- display: none;
+.banner__text-moto {
+  width: 260px !important;
+  margin: 0 auto;
 }
 /* Hero Section */
+/* Cient */
+.client {
+  padding: 20px 0;
+}
 
 /* -----Package Style */
 .package__content {
