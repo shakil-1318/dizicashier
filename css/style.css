@@ -13,7 +13,7 @@
   /*----------*----------*----------* Website Theme */
   --color-blue: #0077c0;
   --color-cyan: #17a2b8;
-  --color-green: #28a745;
+  --color-green: #28c54c;
   /* --color-blue: #007bff; */
   --color-indigo: #6610f2;
   --color-purple: #6f42c1;
@@ -490,42 +490,54 @@ transform: translateZ(10px);
   
 }
 .package .single__package{
-  text-align: center;
-    padding: 4rem 4rem 3rem;
+    text-align: center;
     border: 1px solid var(--color-border);
     border-image: initial;
     transition: all 0.6s ease 0s;
     box-sizing: border-box;
     position: relative;
+    border-radius: .5rem;
+    overflow: hidden;
 }
-.single__package img{
-  margin-bottom: 1.8rem;
-  width: 7rem;
-  height: 6.5rem;
+.single__package--content{
+  background-color: #27ae61;
+  color: var(--color-white);
+  border-radius: .5rem;
+  padding: 20px 0;
 }
+.basic{
+  background-color:  #31aee8;
+}
+.standard{
+  background-color: #2370cc;
+}
+.enterprise{
+  background-color: #127793;
+}
+.enterprise__list{
+  padding: 1.5rem 3rem .8rem !important;
+  margin-bottom: 0;
+}
+
 .single__package p{
   font-size: 1.8rem;
   font-weight: 600;
-  color: var(--color-black);
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
 }
 .single__package h3{
   font-size: 2.4rem;
   font-weight: 600;
-  color: var(--color-black);
   margin-bottom: 5px;
-  padding-top: 24px;
-  border-top: 1px solid var(--color-border);
 }
 
 .single__package h3 span{
     font-size: 16px;
-    color: var(--color-text);
+    color: var(--color-light);
     font-weight: 500;
 }
 .package__list{
+  padding: 1.5rem 3rem 1.5rem;
   text-align: left;
-  padding: 1.2rem 0rem 2rem;
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -536,8 +548,8 @@ transform: translateZ(10px);
   margin: 1rem 0;
 }
 .package__list li .fa-circle-check{
-  color: var(--color-cyan);
-  margin-right: 3px;
+  color: var(--color-green);
+  margin-right: 5px;
 }
 .package__list li .fa-circle-xmark{
   color: var(--color-red);
@@ -553,13 +565,31 @@ transform: translateZ(10px);
   padding-top: 1rem !important;
 }
 .single__package .package__btn{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 600;
   text-transform: uppercase;
-  padding-top: 2.5rem;
+  padding-top: 1rem;
+  margin-bottom: 15px;
   display: inline-block;
   color: rgb(24, 32, 40);
   transition: all 0.5s ease 0s;
+  position: relative;
+}
+.single__package .package__btn::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: var(--color-blue);
+  transform: scale(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+}
+.single__package .package__btn:hover::after {
+  transform: scale(1);
+  transform-origin: left;
 }
 
 .package .single__package:hover{
@@ -568,52 +598,33 @@ transform: translateZ(10px);
   border-image: initial;
 }
 .package .single__package:hover .package__btn{
-  color: var(--color-green);
+  color: var(--color-blue);
 }
 
-.ribbon-wrap{
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
+.ribbon {
   position: absolute;
-  top: -10px;
-  left: -10px;
-}
-.ribbon-wrap::before, .ribbon-wrap::after{
-  content: '';
-  width: 10px;
-  height: 10px;
-  background: var(--color-green);
-  position: absolute;
-  z-index: -1;
-}
-.ribbon-wrap::before{
-  top: 0;
-  right: 0;
-}
-.ribbon-wrap::after{
-  bottom: 0;
-  left: 0;
-}
-.ribbon{
-  font-weight: 600;
-  width: 225px;
-  font-size: 15px;
+  right: -64px;
+  top: 15px;
   text-align: center;
-  padding: 8px 0;
-  color: var(--color-white);
-  background-color: #00CBF4;
-  position: absolute;
-  transform: rotate(-45deg);
-  right: -17%;
-  top: 29%;
-  letter-spacing: 3px;
+  padding: 6px 60px;
+  transform: rotate(45deg);
+  overflow: hidden;
+  background-color: #31aee8;
+  box-shadow: 0px 20px 30px 0px rgba(24, 32, 40, 0.05);
 }
+.ribbon span{
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+
+
 /* -------------------------Package End */
 
 /* -------------------------Testimonial Start */
 .testimonials{
- 
+
 }
 .shadow-effect {
   background: #fff;
