@@ -131,13 +131,14 @@ width: 4rem;
   padding: 20px 20px;
 }
 .download__content h5 {
-  font-size: 18px;
+  font-size: 16px;
   color: var(--color-light);
   margin-left: 10px;
   margin-bottom: 0;
 }
-.download__bnt{
-  /* margin-top: 2rem; */
+.download__btn a {
+  padding: 1rem 2.5rem;
+  font-size: 1.4rem;
 }
 /* Download */
 
