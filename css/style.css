@@ -140,11 +140,11 @@ textarea {
 /* navbar start */
 .top-nav{
   padding: 1rem 0;
-  background-color: var(--color-blue);
+  /* background-color: var(--color-blue); */
   
 }
 .top-nav p i{
-  color: var(--color-white);
+  color: var(--color-blue);
 }
 .top-nav p {
   font-size: 1.6rem;
@@ -156,7 +156,7 @@ textarea {
 }
 .top-nav p a{
   font-size: 1.6rem;
-  color: var(--color-white);
+  color: #232323;
 }
 
 .navbar {
@@ -387,17 +387,21 @@ textarea {
 
 /* ------------------------Milestone Start */
 .milestone{
-
+/* background-color: #f5f7fa; */
 }
 .single__milestone{
+  max-height: 180px;
   padding: 2rem 0.5rem;
   transition: all .2s ease-in-out;
   overflow: hidden;
-  border: 2px solid var(--color-light);
+  /* border: 2px solid var(--color-border); */
+  border-radius: .5rem;
+  box-shadow: 2px 2px 15px rgba(115, 115, 115, 0.4);
 }
 .single__milestone:hover{
   /* border: 1px solid transparent; */
-  box-shadow: var(--color-box-shadow);
+  /* box-shadow: var(--color-box-shadow); */
+  box-shadow: 2px 2px 15px rgba(115, 115, 115, 0.4);
   transform: scale(1.05);
 }
 .single__milestone h5{
@@ -484,7 +488,7 @@ transform: translateZ(10px);
 
 /* -------------------------Package Start */
 .package{
-
+  padding-top: 80px;
 }
 .package__content{
   margin-bottom: 6rem;
@@ -496,6 +500,7 @@ transform: translateZ(10px);
   
 }
 .package .single__package{
+  box-shadow: 2px 2px 15px rgba(115, 115, 115, 0.4);
     text-align: center;
     border: 1px solid var(--color-border);
     border-image: initial;
@@ -599,7 +604,9 @@ transform: translateZ(10px);
 }
 
 .package .single__package:hover{
-  box-shadow: var(--color-box-shadow);
+  /* box-shadow: var(--color-box-shadow); */
+  /* box-shadow: 2px 2px 15px rgba(115, 115, 115, 0.4); */
+  transform: translateY(-1rem);
   border: 1px solid transparent;
   border-image: initial;
 }
@@ -607,24 +614,48 @@ transform: translateZ(10px);
   color: var(--color-blue);
 }
 
-
-.ribbon {
-  position: absolute;
-  right: -64px;
-  top: 15px;
-  text-align: center;
-  padding: 6px 60px;
-  transform: rotate(45deg);
+.ribbon-wrapper{
+  width: 150px;
+  height: 150px;
   overflow: hidden;
-  background-color: #31aee8;
-  box-shadow: 0px 20px 30px 0px rgba(24, 32, 40, 0.05);
+  position: absolute;
+  top: -10px;
+  left: -10px;
 }
-.ribbon span{
-  color: white;
-  font-size: 12px;
+.ribbon-wrapper::before, .ribbon-wrapper::after{
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: var(--color-green);
+  position: absolute;
+  z-index: -1;
+
+}
+.ribbon-wrapper::before{
+  top: 0;
+  right: 0;
+}
+.ribbon-wrapper::after{
+  bottom: 0;
+  left: 0;
+}
+.ribbon{
+  width: 225px;
+  font-size: 14px;
   font-weight: 600;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.1px;
+  padding: 8px 0;
+  text-align: center;
+  background: var(--color-green);
+  color: #fff;
+  position: absolute;
+  transform: rotate(-45deg);
+  right: -7%;
+  top: 20%;
 }
+
+
+
 
 
 /* -------------------------Package End */
@@ -714,6 +745,7 @@ display: inline-block;
   overflow: hidden;
 }
 
+
 .single__industry img{
   margin-bottom: 2.4rem;
   transition: all .3s ease;
@@ -771,7 +803,7 @@ margin: 0;
 }
 .form-control {
   padding: 1.2rem 1rem;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 500;
   color: var(--color-text);
 }
@@ -783,7 +815,7 @@ margin: 0;
 }
 .form-select {
   padding: 1.2rem 2.25rem 1.2rem .75rem;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 500;
   color: var(--color-text);
 }
@@ -826,7 +858,7 @@ margin: 0;
 /* ---------------------------Footer Start */
 .footer_part {
   background-color: #F4F2FF;
-  padding: 130px 0px 25px;
+  padding: 60px 0px 25px;
   /* font-family: "Open Sans", sans-serif; */
 }
 
@@ -836,8 +868,9 @@ margin: 0;
   margin-bottom: 3.5rem;
 }
 .single_footer_part p{
+  color: #333333;
   line-height: 2.8rem;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 .footer_part .single_footer_part h4 {
@@ -851,7 +884,7 @@ margin: 0;
 }
 .list-unstyled li i{
   color: var(--color-blue);
-  margin-right: 4px;
+  margin-right: 7px;
   font-size: 1.4rem;
 }
 .footer_part .single_footer_part .list-unstyled li a {
