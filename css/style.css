@@ -140,10 +140,11 @@ textarea {
 /* navbar start */
 .top-nav{
   padding: 1rem 0;
-  /* box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08); */
+  background-color: var(--color-blue);
+  
 }
 .top-nav p i{
-  color: var(--color-blue);
+  color: var(--color-white);
 }
 .top-nav p {
   font-size: 1.6rem;
@@ -155,7 +156,7 @@ textarea {
 }
 .top-nav p a{
   font-size: 1.6rem;
-  color: var(--color-black);
+  color: var(--color-white);
 }
 
 .navbar {
@@ -250,10 +251,10 @@ textarea {
   /* background-image: linear-gradient(360deg, rgba(23, 163, 184, 0.2) , #fff); */
 }
 .hero__content{
-  max-width: 500px;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 .hero__content--title{
   font-size: 4rem;
@@ -280,11 +281,16 @@ textarea {
   box-shadow: 0 3px 5px 0 rgba(29, 163, 58, 0.3);
   transform: translateY(-3px);
 }
+.hero__content--link__free{
+  background-color: var(--color-blue);
+  border: none;
+  transition: all .3s ease;
+}
 
 .hero__content--link__free:hover{
   background-color: #01568a  !important;
   box-shadow: 0 3px 5px 0 rgba(0, 119, 192, 0.3);
-  transform: translateY(-3px);
+  transform: translateY(-3px) !important;
 }
 
 .hero__video {
@@ -384,7 +390,7 @@ textarea {
 
 }
 .single__milestone{
-  padding: 2rem 1rem;
+  padding: 2rem 0.5rem;
   transition: all .2s ease-in-out;
   overflow: hidden;
   border: 2px solid var(--color-light);
@@ -536,7 +542,7 @@ transform: translateZ(10px);
     font-weight: 500;
 }
 .package__list{
-  padding: 1.5rem 3rem 1.5rem;
+  padding: 1.5rem 2rem 1.5rem;
   text-align: left;
   border-bottom: 1px solid var(--color-border);
 }
@@ -548,8 +554,8 @@ transform: translateZ(10px);
   margin: 1rem 0;
 }
 .package__list li .fa-circle-check{
-  color: var(--color-green);
-  margin-right: 5px;
+  color: var(--color-blue);
+  margin-right: 8px;
 }
 .package__list li .fa-circle-xmark{
   color: var(--color-red);
@@ -644,7 +650,7 @@ transform: translateZ(10px);
   margin: -17px auto 0;
   display: table;
   width: auto;
-  background: var(--color-cyan);
+  background: var(--color-blue);
   padding: 9px 35px;
   border-radius: .5rem;
   text-align: center;
@@ -676,7 +682,7 @@ transform: translateZ(10px);
 }
 #customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
 #customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
-  background: var(--color-cyan);
+  background: var(--color-blue);
   transform: translate3d(0px, -50%, 0px) scale(0.7);
 }
 #customers-testimonials.owl-carousel .owl-dots{
@@ -688,7 +694,7 @@ text-align: center;
 display: inline-block;
 }
 #customers-testimonials.owl-carousel .owl-dots .owl-dot span {
-  background: var(--color-cyan);
+  background: var(--color-blue);
   display: inline-block;
   height: 20px;
   margin: 0 2px 5px;
@@ -702,9 +708,15 @@ display: inline-block;
 /* -------------------------Industry Blog Start */
 .single__industry{
   box-shadow: var(--color-box-shadow);
+  overflow: hidden;
 }
+
 .single__industry img{
   margin-bottom: 2.4rem;
+  transition: all .3s ease;
+}
+.single__industry:hover img{
+  transform: scale(1.05);
 }
 .industry__content{
   padding: 0 2rem 1rem 2rem;
@@ -758,10 +770,10 @@ margin: 0;
   color: var(--color-text);
 }
 .form-select .form-control:focus{
-  border: 1px solid var(--color-cyan);
+  border: 1px solid var(--color-blue);
 }
 .form-select:focus{
-  border: 1px solid var(--color-cyan);
+  border: 1px solid var(--color-blue);
 }
 .form-select {
   padding: 1.2rem 2.25rem 1.2rem .75rem;
@@ -770,14 +782,45 @@ margin: 0;
   color: var(--color-text);
 }
 /* ---------------------------Login End */
+/* ---------------------------Download Start */
+.download{
+  padding: 30px 0;
+  background: rgb(0,119,192);
+  background: linear-gradient(150deg, rgba(0,119,192,1) 0%, rgba(40,197,64,1) 100%);
+}
+.download__content img{
+  width: 50px;
+}
+.download__content h5{
+  font-size: 24px;
+  color: var(--color-light);
+  margin-left: 20px;
+}
+
+.download__btn a{
+  font-weight: 600;
+  background-color: white;
+  color: #3c4858 !important;
+  letter-spacing: 1.1px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1.5rem 3rem;
+  font-size: 1.6rem;
+  box-shadow: 0 3px 5px 0 rgba(248, 249, 252, 0.3);
+  transition: all .3s ease;
+}
+.download__btn a:hover{
+  background-color: #d4daed !important;
+  color: #3c4858 !important;
+  transform: translateY(-3px);
+}
+/* ---------------------------Download End */
 /* ---------------------------Footer Start */
 .footer_part {
-  background-image: url(../assets/footer_bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 130px 0px 25px;
-  font-family: 'Roboto', sans-serif;
 }
 
 .footer_logo_iner img{

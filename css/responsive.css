@@ -22,9 +22,12 @@
     font-weight: 700;
   }
   /* -------Common Style-------- */
-/* ---------Navbar  */
+/*============ Navbar Section =============*/
 .top-nav{
   padding: 1rem 1.5rem;
+}
+.top-nav p i, .top-nav p a{
+  font-size: 1.4rem;
 }
 
 .navbar {
@@ -66,8 +69,9 @@
 .navbar-toggler-icon {
   background-image: url("../assets/icons8-hamburger.svg");
 }
+/*============ Navbar Section =============*/
 
- /* Hero Section */
+/*============ Hero Section =============*/
  .hero{
   padding: 40px 20px;
  }
@@ -95,14 +99,20 @@ height: 4rem;
 width: 4rem;
 }
 .banner__text-moto {
-  width: 260px !important;
+  width: 200px !important;
   margin: 0 auto;
 }
-/* Hero Section */
+/*============ Hero Section =============*/
 /* Cient */
 .client {
   padding: 20px 0;
 }
+
+/*============ Service Section =============*/
+.services{
+  padding: 20px 20px;
+}
+/*============ Service Section =============*/
 
 /* -----Package Style */
 .package__content {
@@ -147,10 +157,16 @@ width: 4rem;
 }
   /* -------Common Style-------- */
  
-   /* ---------Navbar  */
+/*============ Navbar Section =============*/
+  .navbar-nav {
+    padding: 20px 0;
+  }
    .navbar-nav .nav-item .nav-link {
-    font-size: 1.6rem !important;
+    font-size: 1.4rem !important;
     padding: 1rem 0;
+  }
+  .top-nav p i, .top-nav p a{
+    font-size: 1.4rem;
   }
 
    .dropdown .dropdown-menu {
@@ -167,7 +183,7 @@ width: 4rem;
     border: none;
     font-size: 1.6rem;
     color: var(--color-white) !important;
-    background-color: var(--color-cyan);
+    background-color: var(--color-blue);
     padding: .5rem;
     border-radius: .5rem !important;
   }
@@ -181,10 +197,11 @@ width: 4rem;
 .navbar-toggler-icon {
     background-image: url("../assets/icons8-hamburger.svg");
   }
+/*============ Navbar Section =============*/
 
-   /* Hero Section */
+/*============ Hero Section =============*/
    .hero{
-    padding: 40px 0;
+    padding: 40px 20px;
    }
  .hero__content {
   gap: 1rem;
@@ -212,10 +229,13 @@ width: 4rem;
   font-weight: 700;
   display: none;
 } */
-.hero__theme{
-  display: none;
+
+/*============ Hero Section =============*/
+/*============ Service Section =============*/
+.services{
+  padding: 20px 20px;
 }
-/* Hero Section */
+/*============ Service Section =============*/
 
 /* -----Package Style */
 .package__content {
@@ -238,9 +258,9 @@ width: 4rem;
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* ----common Style */
+  /* =============common Style ==========*/
   .padd{
-    padding: 60px 0;
+    padding: 40px 0;
   }
   .service__content--pack{
     display: none;
@@ -252,9 +272,12 @@ width: 4rem;
     font-size: 2.4rem;
     font-weight: 700;
 }
-  /* ----common Style */
+  /* =============common Style ==========*/
   
-   /* ---------Navbar  */
+/*============ Navbar Section =============*/
+    .top-nav p i, .top-nav p a{
+      font-size: 1.4rem;
+    }
    .navbar-nav .nav-item .nav-link {
     font-size: 1.6rem !important;
     padding: 1.4rem 0px;
@@ -274,7 +297,7 @@ width: 4rem;
     border: none;
     font-size: 1.6rem;
     color: var(--color-white) !important;
-    background-color: var(--color-cyan);
+    background-color: var(--color-blue);
     padding: .5rem;
     border-radius: .5rem !important;
   }
@@ -288,8 +311,9 @@ width: 4rem;
 .navbar-toggler-icon {
     background-image: url("../assets/icons8-hamburger.svg");
   }
+/*============ Navbar Section =============*/
 
-  /* Hero Section */
+/*============ Hero Section =============*/
   .hero__content {
     gap: 1rem;
 }
@@ -309,11 +333,14 @@ width: 4rem;
   height: 4rem;
   width: 4rem;
 }
-  /* Hero Section */
+/*============ Hero Section =============*/
 
-  /* -----Service Style */
+/*============ Service Section =============*/
+  .services{
+    padding: 20px 0;
+  }
+  /*============ Service Section =============*/
  
-  /* -----Service Style */
   /* -----Package Style */
   .package__content {
     margin-bottom: 3rem;
@@ -351,14 +378,14 @@ width: 4rem;
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  /* Hero Section */
+  /*============ Hero Section =============*/
   .hero__content {
     gap: 1rem;
 }
   .hero__content--title {
     font-size: 3.5rem;
 }
-  /* Hero Section */
+  /*============ Hero Section =============*/
  
 }
 /*Extra Large devices (desktops, 1200px and up) */
