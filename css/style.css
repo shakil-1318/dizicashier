@@ -817,18 +817,17 @@ margin: 0;
   box-shadow: 0 3px 5px 0 rgba(248, 249, 252, 0.3);
   transition: all .3s ease;
 }
-/* .download__btn a:hover{
-  background-color: #d4daed !important;
+.download__btn a:hover{
+  background-color: #F4F2FF !important;
   color: #3c4858 !important;
   transform: translateY(-3px);
-} */
+}
 /* ---------------------------Download End */
 /* ---------------------------Footer Start */
 .footer_part {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #F4F2FF;
   padding: 130px 0px 25px;
+  /* font-family: "Open Sans", sans-serif; */
 }
 
 .footer_logo_iner img{
@@ -851,42 +850,48 @@ margin: 0;
   list-style: none;
 }
 .list-unstyled li i{
-  color: var(--color-cyan);
+  color: var(--color-blue);
   margin-right: 4px;
   font-size: 1.4rem;
 }
 .footer_part .single_footer_part .list-unstyled li a {
   color: var(--color-text);
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-bottom: 1rem;
   display: inline-block;
-  color: var(--color-text);
+  color: #333333;
+  /* color: var(--color-text); */
   transition: all .3s ease;
 }
 .footer_part .single_footer_part .list-unstyled li a:hover {
-  color: var(--color-cyan);
+  color: var(--color-blue);
 }
-.footer_part hr {
-  background-color: var(--color-text);
-  margin-top: 25px;
-  margin-bottom: 25px;
+
+.copyright{
+  padding: 20px 0;
+  background-color: #283353;
 }
-.footer_part .copyright_text p {
+.copyright_text p {
+  /* font-family: "Open Sans", sans-serif; */
   font-size: 1.4rem;
-  color: var(--color-text);
+  margin: 0;
+  color: var(--color-light);
 }
-.footer_part .footer_icon {
+.footer_icon {
   text-align: right;
 }
-.footer_part .footer_icon li {
+.footer_icon li {
   display: inline-block;
 }
-.footer_part .footer_icon li a {
+ .footer_icon li a {
   font-size: 14px;
   color: var(--color-text) !important;
-  margin-left: 30px;
+  margin-left: 15px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+.footer_icon .list-unstyled {
+  margin: 0;
 }
 .list-unstyled li .single_social_icon .fa-facebook
 {

@@ -382,10 +382,10 @@ width: 4rem;
     background-size: cover;
     background-color: #f7f7f7;
 }
-.footer_part .copyright_text {
+.copyright_text {
     text-align: center !important;
 }
-.footer_part .footer_icon {
+.footer_icon {
   text-align: center;
   float: none;
 }
