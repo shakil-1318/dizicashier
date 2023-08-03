@@ -685,6 +685,7 @@ transform: translateZ(10px);
 #customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
   background: var(--color-blue);
   transform: translate3d(0px, -50%, 0px) scale(0.7);
+  border-radius: 50%;
 }
 #customers-testimonials.owl-carousel .owl-dots{
 display: inline-block;
@@ -703,6 +704,7 @@ display: inline-block;
   transform-origin: 50% 50% 0;
   transition: all 250ms ease-out 0s;
   width: 20px;
+  border-radius: 50px;
 }
 /* -------------------------Testimonial End */
 
@@ -799,6 +801,7 @@ margin: 0;
   font-size: 24px;
   color: var(--color-light);
   margin-left: 20px;
+  margin-bottom: 0;
 }
 
 .download__btn a{
@@ -807,17 +810,18 @@ margin: 0;
   color: #3c4858 !important;
   letter-spacing: 1.1px;
   display: inline-block;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 1.5rem 3rem;
   font-size: 1.6rem;
+  margin-left: 30px;
   box-shadow: 0 3px 5px 0 rgba(248, 249, 252, 0.3);
   transition: all .3s ease;
 }
-.download__btn a:hover{
+/* .download__btn a:hover{
   background-color: #d4daed !important;
   color: #3c4858 !important;
   transform: translateY(-3px);
-}
+} */
 /* ---------------------------Download End */
 /* ---------------------------Footer Start */
 .footer_part {
