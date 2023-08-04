@@ -26,6 +26,12 @@ jQuery(document).ready(function ($) {
   });
 });
 
+// Video PopUp
+$('#videolink').magnificPopup({
+  type: 'inline',
+  midClick: true
+})
+
 // Scroll back to top
 const toTop = document.querySelector(".to-top");
 

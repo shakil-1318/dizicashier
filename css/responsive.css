@@ -102,6 +102,22 @@ width: 4rem;
   width: 200px !important;
   margin: 0 auto;
 }
+
+.video-popup{
+  max-width: 80% !important;
+  margin:  0 auto !important;
+}
+
+.iframe-video{
+  width: 100%;
+  height: 300px;
+}
+.mfp-close-btn-in .mfp-close {
+  color: #fff !important;
+  font-size: 30px;
+  right: 5%;
+  top: -10%;
+}
 /*============ Hero Section =============*/
 /* Cient */
 .client {
@@ -245,6 +261,21 @@ width: 4rem;
   font-weight: 700;
   display: none;
 } */
+.video-popup{
+  max-width: 80% !important;
+  margin:  0 auto !important;
+}
+
+.iframe-video{
+  width: 100%;
+  height: 400px;
+}
+.mfp-close-btn-in .mfp-close {
+  color: #fff !important;
+  font-size: 30px;
+  right: 5%;
+  top: -10%;
+}
 
 /*============ Hero Section =============*/
 /*============ Service Section =============*/
@@ -349,6 +380,21 @@ width: 4rem;
   height: 4rem;
   width: 4rem;
 }
+.video-popup{
+  max-width: 80% !important;
+  margin:  0 auto !important;
+}
+
+.iframe-video{
+  width: 100%;
+  height: 400px;
+}
+.mfp-close-btn-in .mfp-close {
+  color: #fff !important;
+  font-size: 30px;
+  right: 5%;
+  top: -10%;
+}
 /*============ Hero Section =============*/
 
 /*============ Service Section =============*/
@@ -402,6 +448,7 @@ width: 4rem;
     font-size: 3.5rem;
 }
   /*============ Hero Section =============*/
+  
  
 }
 /*Extra Large devices (desktops, 1200px and up) */
