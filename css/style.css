@@ -578,7 +578,13 @@ transform: translateZ(10px);
   color: var(--color-text);
   text-transform: capitalize;
   margin: 1rem 0;
-}
+} 
+ .package__list li i{
+  margin-top: 3px;
+ }
+ .package__list li p{
+  margin-bottom: 0 !important;
+ }
 .package__list li .fa-circle-check{
   color: var(--color-blue);
   margin-right: 8px;
