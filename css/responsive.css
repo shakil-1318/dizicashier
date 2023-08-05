@@ -1,6 +1,6 @@
  /* Extra small devices (portrait phones, less than 576px) */
  @media (max-width: 575.98px) {
-  /* -------Common Style-------- */
+ /*============ Common Section =============*/
   
   .padd{
     padding: 40px 20px;
@@ -21,7 +21,8 @@
     line-height: 3.6rem;
     font-weight: 700;
   }
-  /* -------Common Style-------- */
+ /*============ Common Section =============*/
+
 /*============ Navbar Section =============*/
 .top-nav{
   padding: 1rem 1.5rem;
@@ -103,8 +104,6 @@ width: 4rem;
   margin: 0 auto;
 }
 
-
-
 /*============ Hero Section =============*/
 /* Cient */
 .client {
@@ -117,35 +116,21 @@ width: 4rem;
 }
 /*============ Service Section =============*/
 
-/* -----Package Style */
+ /*============ Package Section =============*/
 .package__content {
   margin-bottom: 3rem;
 }
-/* -----Package Style */
+ /*============ Package Section =============*/
 
-/* -----------Testimonial Style */
+ /*============ Testimonial Section =============*/
 #customers-testimonials .item {
   padding: 10px 10px;
 }
-/* -----------Testimonial Style */
+ /*============ Testimonial Section =============*/
 
-/* Download */
-.download{
-  padding: 20px 20px;
-}
-.download__content h5 {
-  font-size: 16px;
-  color: var(--color-light);
-  margin-left: 10px;
-  margin-bottom: 0;
-}
-.download__btn a {
-  padding: 1rem 2.5rem;
-  font-size: 1.4rem;
-}
-/* Download */
 
-/* ---------------------------Login Start */
+
+ /*============ Login Section =============*/
 .login{
 
 }
@@ -155,23 +140,22 @@ width: 4rem;
 .form-select {
   font-size: 1.4rem;
 }
-/* ---------------------------Login End */
+ /*============ Login Section =============*/
 
-/* Footer */
+ /*============ Footer Section =============*/
 .footer_part .single_footer_part {
   margin-bottom: 2rem;
   }
   .footer_part .single_footer_part h4 {
     margin-bottom: 1.5rem;
 }
-/* Footer */
+ /*============ Footer Section =============*/
    
-  
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-   /* -------Common Style-------- */
+ /*============ Common Section =============*/
    .padd{
     padding: 40px 20px;
   }
@@ -186,7 +170,7 @@ width: 4rem;
   font-size: 2.4rem;
   font-weight: 700;
 }
-  /* -------Common Style-------- */
+ /*============ Common Section =============*/
  
 /*============ Navbar Section =============*/
   .navbar-nav {
@@ -254,12 +238,7 @@ line-height: 48px;
 height: 4rem;
 width: 4rem;
 }
-/* .hero__video__in span {
-  color: rgb(23, 162, 184);
-  font-size: 2rem;
-  font-weight: 700;
-  display: none;
-} */
+
 .video-popup{
   max-width: 80% !important;
   margin:  0 auto !important;
@@ -283,23 +262,21 @@ width: 4rem;
 }
 /*============ Service Section =============*/
 
-/* -----Package Style */
+ /*============ Package Section =============*/
 .package__content {
   margin-bottom: 3rem;
 }
-/* -----Package Style */
+ /*============ Package Section =============*/
 
-/* Footer */
+ /*============ Footer Section =============*/
 .footer_part .single_footer_part {
   margin-bottom: 2rem;
   }
   .footer_part .single_footer_part h4 {
     margin-bottom: 1.5rem;
 }
-/* Footer */
+ /*============ Footer Section =============*/
 
-
-  
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -402,22 +379,34 @@ width: 4rem;
   }
   /*============ Service Section =============*/
  
-  /* -----Package Style */
+ /*============ Package Section =============*/
   .package__content {
     margin-bottom: 3rem;
 }
-  /* -----Package Style */
+ /*============ Package Section =============*/
 
-  /* Footer */
+ /*============ Footer Section =============*/
   .footer_part .single_footer_part {
     margin-bottom: 2rem;
     }
     .footer_part .single_footer_part h4 {
       margin-bottom: 1.5rem;
   }
-  /* Footer */
+ /*============ Footer Section =============*/
+}
 
-  
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*============ Hero Section =============*/
+  .hero__content {
+    gap: 1rem;
+}
+  .hero__content--title {
+    font-size: 3.5rem;
+}
+  /*============ Hero Section =============*/
+
 }
 @media (max-width: 991px){
   .footer_part {
@@ -437,19 +426,6 @@ width: 4rem;
 }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  /*============ Hero Section =============*/
-  .hero__content {
-    gap: 1rem;
-}
-  .hero__content--title {
-    font-size: 3.5rem;
-}
-  /*============ Hero Section =============*/
-  
- 
-}
 /*Extra Large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   
