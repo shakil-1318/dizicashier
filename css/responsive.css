@@ -103,21 +103,8 @@ width: 4rem;
   margin: 0 auto;
 }
 
-.video-popup{
-  max-width: 80% !important;
-  margin:  0 auto !important;
-}
 
-.iframe-video{
-  width: 100%;
-  height: 300px;
-}
-.mfp-close-btn-in .mfp-close {
-  color: #fff !important;
-  font-size: 30px;
-  right: 5%;
-  top: -10%;
-}
+
 /*============ Hero Section =============*/
 /* Cient */
 .client {
