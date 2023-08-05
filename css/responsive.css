@@ -14,7 +14,7 @@
   }
   .sec-title {
     font-size: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
   .sec-head-title {
     font-size: 2.2rem;
@@ -157,6 +157,18 @@ width: 4rem;
   font-size: 1.4rem;
 }
 /* Download */
+
+/* ---------------------------Login Start */
+.login{
+
+}
+.form-control {
+  font-size: 1.4rem;
+}
+.form-select {
+  font-size: 1.4rem;
+}
+/* ---------------------------Login End */
 
 /* Footer */
 .footer_part .single_footer_part {
