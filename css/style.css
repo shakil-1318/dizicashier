@@ -120,6 +120,7 @@ textarea {
   opacity:0;
   pointer-events: none;
   transition: all .4s;
+  z-index: 10002;
 }
 .to-top i{
   font-size: 20px;

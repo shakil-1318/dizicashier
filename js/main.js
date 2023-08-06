@@ -54,3 +54,7 @@ window.addEventListener("scroll", () => {
     toTop.classList.remove("active");
   }
 })
+
+// Footer Current Year
+var year = document.getElementById('currentYear');
+year.innerHTML = new Date().getFullYear();
