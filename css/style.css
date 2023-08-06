@@ -533,11 +533,13 @@ transform: translateZ(10px);
     box-sizing: border-box;
     position: relative;
     border-radius: .5rem;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .single__package--content{
   background-color: #27ae61;
   color: var(--color-white);
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
   /* border-radius: .5rem; */
   padding: 20px 0;
 }
@@ -645,9 +647,11 @@ transform: translateZ(10px);
   color: var(--color-blue);
 }
 
-.ribbon-wrapper{
-  width: 150px;
-  height: 150px;
+
+
+ .ribbon-wrapper{
+  width: 145px;
+  height: 145px;
   overflow: hidden;
   position: absolute;
   top: -10px;
@@ -658,16 +662,18 @@ transform: translateZ(10px);
   width: 10px;
   height: 10px;
   background: var(--color-green);
+  /* background:  #31aee8; */
   position: absolute;
   z-index: -1;
+  overflow: hidden;
 
 }
 .ribbon-wrapper::before{
   top: 0;
-  right: 0;
+  right: 25px;
 }
 .ribbon-wrapper::after{
-  bottom: 0;
+  bottom: 25px;
   left: 0;
 }
 .ribbon{
@@ -677,14 +683,14 @@ transform: translateZ(10px);
   letter-spacing: 1.1px;
   padding: 8px 0;
   text-align: center;
-  background-color:  #00CBF4;
-  /* background-color: var(--color-green); */
+  background-color: var(--color-green);
+  /* background: linear-gradient(to right, blue, blue); */
   color: #fff;
   position: absolute;
   transform: rotate(-45deg);
   right: -7%;
   top: 20%;
-}
+} 
 
 
 /*============ Package Section =============*/
