@@ -1,439 +1,513 @@
  /* Extra small devices (portrait phones, less than 576px) */
  @media (max-width: 575.98px) {
- /*============ Common Section =============*/
-  
-  .padd{
-    padding: 40px 20px;
-  }
-  .sec-link {
-    font-size: 1.4rem;
-    padding: 1rem 2rem;
-}
-  .service__content--pack{
-    display: none;
-  }
-  .sec-title {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .sec-head-title {
-    font-size: 2.2rem;
-    line-height: 3.6rem;
-    font-weight: 700;
-  }
- /*============ Common Section =============*/
+   /*============ Common Section =============*/
 
-/*============ Navbar Section =============*/
-.top-nav{
-  padding: 1rem 1.5rem;
-}
-.top-nav p i, .top-nav p a{
-  font-size: 1.4rem;
-}
-
-.navbar {
-  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
-}
-.navbar-nav {
-  padding: 20px 0;
-}
-.navbar-nav .nav-item .nav-link {
-  font-size: 1.6rem !important;
-  padding: 1rem 0;
-}
-
- .dropdown .dropdown-menu {
-  transform: scale(1, 0);
-  display: none;
-  margin-top: 10px;
-}
-.dropdown:hover .dropdown-menu {
-  transform: scale(1);
-  display: block;
-}
-
-.navbar-toggler {
-  border: none;
-  font-size: 1.6rem;
-  color: var(--color-white) !important;
-  background-color: var(--color-blue);
-  padding: .5rem;
-  border-radius: .5rem !important;
-}
-.navbar-toggler:focus{
-  border: none !important;
-  outline: none !important;
-  border-radius: 0 !important;
-  box-shadow: none;
-  border-radius: .5rem !important;
-} 
-.navbar-toggler-icon {
-  background-image: url("../assets/icons8-hamburger.svg");
-}
-/*============ Navbar Section =============*/
-
-/*============ Hero Section =============*/
- .hero{
-  padding: 40px 20px;
- }
- .hero__content {
-  gap: 1rem;
-}
-.hero__content--title {
-  font-size: 2.4rem;
-}
-.hero__content--para {
-font-size: 1.6rem;
-margin-bottom: 2rem;
-}
-.hero__video{
-  margin-top: 2rem;
-}
-.hero__video__in span {
-font-size: 1rem;
-display: block;
-}
-.hero__video__in--btn {
-font-size: 1rem;
-line-height: 48px;
-height: 4rem;
-width: 4rem;
-}
-.banner__text-moto {
-  width: 200px !important;
-  margin: 0 auto;
-}
-
-/*============ Hero Section =============*/
-/* Cient */
-.client {
-  padding: 20px 0;
-}
-
-/*============ Service Section =============*/
-.services{
-  padding: 20px 20px;
-}
-/*============ Service Section =============*/
-
- /*============ Package Section =============*/
-.package__content {
-  margin-bottom: 3rem;
-}
- /*============ Package Section =============*/
-
- /*============ Testimonial Section =============*/
-#customers-testimonials .item {
-  padding: 10px 10px;
-}
- /*============ Testimonial Section =============*/
-
-
-
- /*============ Login Section =============*/
-.login{
-
-}
-.form-control {
-  font-size: 1.4rem;
-}
-.form-select {
-  font-size: 1.4rem;
-}
- /*============ Login Section =============*/
-
- /*============ Footer Section =============*/
-.footer_part .single_footer_part {
-  margin-bottom: 2rem;
-  }
-  .footer_part .single_footer_part h4 {
-    margin-bottom: 1.5rem;
-}
- /*============ Footer Section =============*/
-   
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
- /*============ Common Section =============*/
-   .padd{
-    padding: 40px 20px;
-  }
-  .service__content--pack{
-    display: none;
-  }
-  .sec-title {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-}
-.sec-head-title {
-  font-size: 2.4rem;
-  font-weight: 700;
-}
- /*============ Common Section =============*/
- 
-/*============ Navbar Section =============*/
-  .navbar-nav {
-    padding: 20px 0;
-  }
-   .navbar-nav .nav-item .nav-link {
-    font-size: 1.4rem !important;
-    padding: 1rem 0;
-  }
-  .top-nav p i, .top-nav p a{
-    font-size: 1.4rem;
-  }
-
-   .dropdown .dropdown-menu {
-    transform: scale(1, 0);
-    display: none;
-    margin-top: 10px;
-  }
-  .dropdown:hover .dropdown-menu {
-    transform: scale(1);
-    display: block;
-  }
-
-  .navbar-toggler {
-    border: none;
-    font-size: 1.6rem;
-    color: var(--color-white) !important;
-    background-color: var(--color-blue);
-    padding: .5rem;
-    border-radius: .5rem !important;
-  }
-  .navbar-toggler:focus{
-    border: none !important;
-    outline: none !important;
-    border-radius: 0 !important;
-    box-shadow: none;
-    border-radius: .5rem !important;
-  } 
-.navbar-toggler-icon {
-    background-image: url("../assets/icons8-hamburger.svg");
-  }
-/*============ Navbar Section =============*/
-
-/*============ Hero Section =============*/
-   .hero{
-    padding: 40px 20px;
+   .padd {
+     padding: 40px 20px;
    }
- .hero__content {
-  gap: 1rem;
-}
-.hero__content--title {
-  font-size: 2.5rem;
-}
-.hero__content--para {
-font-size: 1.6rem;
-margin-bottom: 3rem;
-}
-.hero__video__in span {
-font-size: 1.5rem;
-display: block;
-}
-.hero__video__in--btn {
-font-size: 1rem;
-line-height: 48px;
-height: 4rem;
-width: 4rem;
-}
 
-.video-popup{
-  max-width: 80% !important;
-  margin:  0 auto !important;
-}
+   .sec-link {
+     font-size: 1.4rem;
+     padding: 1rem 2rem;
+   }
 
-.iframe-video{
-  width: 100%;
-  height: 400px;
-}
-.mfp-close-btn-in .mfp-close {
-  color: #fff !important;
-  font-size: 30px;
-  right: 5%;
-  top: -10%;
-}
+   .service__content--pack {
+     display: none;
+   }
 
-/*============ Hero Section =============*/
-/*============ Service Section =============*/
-.services{
-  padding: 20px 20px;
-}
-/*============ Service Section =============*/
+   .sec-title {
+     font-size: 2rem;
+     margin-bottom: 2rem;
+   }
 
- /*============ Package Section =============*/
-.package__content {
-  margin-bottom: 3rem;
-}
- /*============ Package Section =============*/
+   .sec-head-title {
+     font-size: 2.2rem;
+     line-height: 3.6rem;
+     font-weight: 700;
+   }
 
- /*============ Footer Section =============*/
-.footer_part .single_footer_part {
-  margin-bottom: 2rem;
-  }
-  .footer_part .single_footer_part h4 {
-    margin-bottom: 1.5rem;
-}
- /*============ Footer Section =============*/
+   /*============ Common Section =============*/
 
-}
+   /*============ Navbar Section =============*/
+   .top-nav {
+     padding: 1rem 1.5rem;
+   }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-  /* =============common Style ==========*/
-  .padd{
-    padding: 40px 0;
-  }
-  .service__content--pack{
-    display: none;
-  }
-  .sec-title {
-    font-size: 2.2rem;
-  }
-  .sec-head-title {
-    font-size: 2.4rem;
-    font-weight: 700;
-}
-  /* =============common Style ==========*/
-  
-/*============ Navbar Section =============*/
-    .top-nav p i, .top-nav p a{
-      font-size: 1.4rem;
-    }
+   .top-nav p i,
+   .top-nav p a {
+     font-size: 1.4rem;
+   }
+
+   .navbar {
+     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+   }
+
+   .navbar-nav {
+     padding: 20px 0;
+   }
+
    .navbar-nav .nav-item .nav-link {
-    font-size: 1.6rem !important;
-    padding: 1.4rem 0px;
-  }
+     font-size: 1.6rem !important;
+     padding: 1rem 0;
+   }
 
    .dropdown .dropdown-menu {
-    transform: scale(1, 0);
-    display: none;
-    margin-top: 10px;
-  }
-  .dropdown:hover .dropdown-menu {
-    transform: scale(1);
-    display: block;
-  }
+     transform: scale(1, 0);
+     display: none;
+     margin-top: 10px;
+   }
 
-  .navbar-toggler {
-    border: none;
-    font-size: 1.6rem;
-    color: var(--color-white) !important;
-    background-color: var(--color-blue);
-    padding: .5rem;
-    border-radius: .5rem !important;
-  }
-  .navbar-toggler:focus{
-    border: none !important;
-    outline: none !important;
-    border-radius: 0 !important;
-    box-shadow: none;
-    border-radius: .5rem !important;
-  } 
-.navbar-toggler-icon {
-    background-image: url("../assets/icons8-hamburger.svg");
-  }
-/*============ Navbar Section =============*/
+   .dropdown:hover .dropdown-menu {
+     transform: scale(1);
+     display: block;
+   }
 
-/*============ Hero Section =============*/
-  .hero__content {
-    gap: 1rem;
-}
-  .hero__content--title {
-    font-size: 2.5rem;
-}
-.hero__content--para {
-  font-size: 1.6rem;
-  margin-bottom: 3rem;
-}
-.hero__video__in span {
-  font-size: 1rem;
-}
-.hero__video__in--btn {
-  font-size: 1rem;
-  line-height: 48px;
-  height: 4rem;
-  width: 4rem;
-}
-.video-popup{
-  max-width: 80% !important;
-  margin:  0 auto !important;
-}
+   .navbar-toggler {
+     border: none;
+     font-size: 1.6rem;
+     color: var(--color-white) !important;
+     background-color: var(--color-blue);
+     padding: .5rem;
+     border-radius: .5rem !important;
+   }
 
-.iframe-video{
-  width: 100%;
-  height: 400px;
-}
-.mfp-close-btn-in .mfp-close {
-  color: #fff !important;
-  font-size: 30px;
-  right: 5%;
-  top: -10%;
-}
-/*============ Hero Section =============*/
+   .navbar-toggler:focus {
+     border: none !important;
+     outline: none !important;
+     border-radius: 0 !important;
+     box-shadow: none;
+     border-radius: .5rem !important;
+   }
 
-/*============ Service Section =============*/
-  .services{
-    padding: 20px 0;
-  }
-  /*============ Service Section =============*/
- 
- /*============ Package Section =============*/
-  .package__content {
-    margin-bottom: 3rem;
-}
- /*============ Package Section =============*/
+   .navbar-toggler-icon {
+     background-image: url("../assets/icons8-hamburger.svg");
+   }
 
- /*============ Footer Section =============*/
-  .footer_part .single_footer_part {
-    margin-bottom: 2rem;
-    }
-    .footer_part .single_footer_part h4 {
-      margin-bottom: 1.5rem;
-  }
- /*============ Footer Section =============*/
-}
+   /*============ Navbar Section =============*/
+
+   /*============ Hero Section =============*/
+   .hero {
+     padding: 40px 20px;
+   }
+
+   .hero__content {
+     gap: 1rem;
+   }
+
+   .hero__content--title {
+     font-size: 2.4rem;
+   }
+
+   .hero__content--para {
+     font-size: 1.6rem;
+     margin-bottom: 2rem;
+   }
+
+   .hero__video {
+     margin-top: 2rem;
+   }
+
+   .hero__video__in span {
+     font-size: 1rem;
+     display: block;
+   }
+
+   .hero__video__in--btn i {
+     font-size: 2.5rem;
+   }
+
+   .hero__video__in--btn {
+     font-size: 1rem;
+     line-height: 51px;
+     height: 4rem;
+     width: 4rem;
+   }
+
+   .banner__text-moto {
+     width: 200px !important;
+     margin: 0 auto;
+   }
+
+   /*============ Hero Section =============*/
+   /* Cient */
+   .client {
+     padding: 20px 0;
+   }
+
+   /*============ Service Section =============*/
+   .services {
+     padding: 20px 20px;
+   }
+
+   /*============ Service Section =============*/
+
+   /*============ Package Section =============*/
+   .package__content {
+     margin-bottom: 3rem;
+   }
+
+   /*============ Package Section =============*/
+
+   /*============ Testimonial Section =============*/
+   #customers-testimonials .item {
+     padding: 10px 10px;
+   }
+
+   /*============ Testimonial Section =============*/
 
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  /*============ Hero Section =============*/
-  .hero__content {
-    gap: 1rem;
-}
-  .hero__content--title {
-    font-size: 3.5rem;
-}
-  /*============ Hero Section =============*/
 
-}
-@media (max-width: 991px){
-  .footer_part {
-    padding: 70px 20px 25px;
-    background-image: url(none);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #f7f7f7;
-}
-.copyright_text {
-    text-align: center !important;
-}
-.footer_icon {
-  text-align: center;
-  float: none;
-}
-}
+   /*============ Login Section =============*/
+   .login {}
 
-/*Extra Large devices (desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-  
-  
-}
+   .form-control {
+     font-size: 1.4rem;
+   }
 
-/* Extra Extra large devices (large desktops, 1400px and up) */
-@media (min-width: 1400px) {
-  
-  
-}
+   .form-select {
+     font-size: 1.4rem;
+   }
+
+   /*============ Login Section =============*/
+
+   /*============ Footer Section =============*/
+   .footer_part .single_footer_part {
+     margin-bottom: 2rem;
+   }
+
+   .footer_part .single_footer_part h4 {
+     margin-bottom: 1.5rem;
+   }
+
+   /*============ Footer Section =============*/
+
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+
+   /*============ Common Section =============*/
+   .padd {
+     padding: 40px 20px;
+   }
+
+   .service__content--pack {
+     display: none;
+   }
+
+   .sec-title {
+     font-size: 2rem;
+     margin-bottom: 2rem;
+   }
+
+   .sec-head-title {
+     font-size: 2.4rem;
+     font-weight: 700;
+   }
+
+   /*============ Common Section =============*/
+
+   /*============ Navbar Section =============*/
+   .navbar-nav {
+     padding: 20px 0;
+   }
+
+   .navbar-nav .nav-item .nav-link {
+     font-size: 1.4rem !important;
+     padding: 1rem 0;
+   }
+
+   .top-nav p i,
+   .top-nav p a {
+     font-size: 1.4rem;
+   }
+
+   .dropdown .dropdown-menu {
+     transform: scale(1, 0);
+     display: none;
+     margin-top: 10px;
+   }
+
+   .dropdown:hover .dropdown-menu {
+     transform: scale(1);
+     display: block;
+   }
+
+   .navbar-toggler {
+     border: none;
+     font-size: 1.6rem;
+     color: var(--color-white) !important;
+     background-color: var(--color-blue);
+     padding: .5rem;
+     border-radius: .5rem !important;
+   }
+
+   .navbar-toggler:focus {
+     border: none !important;
+     outline: none !important;
+     border-radius: 0 !important;
+     box-shadow: none;
+     border-radius: .5rem !important;
+   }
+
+   .navbar-toggler-icon {
+     background-image: url("../assets/icons8-hamburger.svg");
+   }
+
+   /*============ Navbar Section =============*/
+
+   /*============ Hero Section =============*/
+   .hero {
+     padding: 40px 20px;
+   }
+
+   .hero__content {
+     gap: 1rem;
+   }
+
+   .hero__content--title {
+     font-size: 2.5rem;
+   }
+
+   .hero__content--para {
+     font-size: 1.6rem;
+     margin-bottom: 3rem;
+   }
+
+   .hero__video__in span {
+     font-size: 1.5rem;
+     display: block;
+   }
+
+   .hero__video__in--btn {
+     font-size: 1rem;
+     line-height: 68px;
+     height: 5rem;
+     width: 5rem;
+   }
+
+   .video-popup {
+     max-width: 80% !important;
+     margin: 0 auto !important;
+   }
+
+   .iframe-video {
+     width: 100%;
+     height: 400px;
+   }
+
+   .mfp-close-btn-in .mfp-close {
+     color: #fff !important;
+     font-size: 30px;
+     right: 5%;
+     top: -10%;
+   }
+
+   /*============ Hero Section =============*/
+   /*============ Service Section =============*/
+   .services {
+     padding: 20px 20px;
+   }
+
+   /*============ Service Section =============*/
+
+   /*============ Package Section =============*/
+   .package__content {
+     margin-bottom: 3rem;
+   }
+
+   /*============ Package Section =============*/
+
+   /*============ Footer Section =============*/
+   .footer_part .single_footer_part {
+     margin-bottom: 2rem;
+   }
+
+   .footer_part .single_footer_part h4 {
+     margin-bottom: 1.5rem;
+   }
+
+   /*============ Footer Section =============*/
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+
+   /* =============common Style ==========*/
+   .padd {
+     padding: 40px 0;
+   }
+
+   .service__content--pack {
+     display: none;
+   }
+
+   .sec-title {
+     font-size: 2.2rem;
+   }
+
+   .sec-head-title {
+     font-size: 2.4rem;
+     font-weight: 700;
+   }
+
+   /* =============common Style ==========*/
+
+   /*============ Navbar Section =============*/
+   .top-nav p i,
+   .top-nav p a {
+     font-size: 1.4rem;
+   }
+
+   .navbar-nav .nav-item .nav-link {
+     font-size: 1.6rem !important;
+     padding: 1.4rem 0px;
+   }
+
+   .dropdown .dropdown-menu {
+     transform: scale(1, 0);
+     display: none;
+     margin-top: 10px;
+   }
+
+   .dropdown:hover .dropdown-menu {
+     transform: scale(1);
+     display: block;
+   }
+
+   .navbar-toggler {
+     border: none;
+     font-size: 1.6rem;
+     color: var(--color-white) !important;
+     background-color: var(--color-blue);
+     padding: .5rem;
+     border-radius: .5rem !important;
+   }
+
+   .navbar-toggler:focus {
+     border: none !important;
+     outline: none !important;
+     border-radius: 0 !important;
+     box-shadow: none;
+     border-radius: .5rem !important;
+   }
+
+   .navbar-toggler-icon {
+     background-image: url("../assets/icons8-hamburger.svg");
+   }
+
+   /*============ Navbar Section =============*/
+
+   /*============ Hero Section =============*/
+   .hero__content {
+     gap: 1rem;
+   }
+
+   .hero__content--title {
+     font-size: 2.5rem;
+   }
+
+   .hero__content--para {
+     font-size: 1.6rem;
+     margin-bottom: 3rem;
+   }
+
+   .hero__video__in span {
+     font-size: 1rem;
+   }
+
+   .hero__video__in--btn {
+     font-size: 1rem;
+     line-height: 68px;
+     height: 5rem;
+     width: 5rem;
+   }
+
+   .video-popup {
+     max-width: 80% !important;
+     margin: 0 auto !important;
+   }
+
+   .iframe-video {
+     width: 100%;
+     height: 400px;
+   }
+
+   .mfp-close-btn-in .mfp-close {
+     color: #fff !important;
+     font-size: 30px;
+     right: 5%;
+     top: -10%;
+   }
+
+   /*============ Hero Section =============*/
+
+   /*============ Service Section =============*/
+   .services {
+     padding: 20px 0;
+   }
+
+   /*============ Service Section =============*/
+
+   /*============ Package Section =============*/
+   .package__content {
+     margin-bottom: 3rem;
+   }
+
+   /*============ Package Section =============*/
+
+   /*============ Footer Section =============*/
+   .footer_part .single_footer_part {
+     margin-bottom: 2rem;
+   }
+
+   .footer_part .single_footer_part h4 {
+     margin-bottom: 1.5rem;
+   }
+
+   /*============ Footer Section =============*/
+ }
+
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+
+   /*============ Hero Section =============*/
+   .hero__content {
+     gap: 1rem;
+   }
+
+   .hero__content--title {
+     font-size: 3.5rem;
+   }
+
+   /*============ Hero Section =============*/
+
+ }
+
+ @media (max-width: 991px) {
+   .footer_part {
+     padding: 70px 20px 25px;
+     background-image: url(none);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-color: #f7f7f7;
+   }
+
+   .copyright_text {
+     text-align: center !important;
+   }
+
+   .footer_icon {
+     text-align: center;
+     float: none;
+   }
+ }
+
+ /*Extra Large devices (desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+ @media (min-width: 1400px) {}
