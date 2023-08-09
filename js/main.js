@@ -58,3 +58,27 @@ window.addEventListener("scroll", () => {
 // Footer Current Year
 var year = document.getElementById('currentYear');
 year.innerHTML = new Date().getFullYear();
+
+
+$(document).ready(function () {
+  $(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    if (scroll > 100) {
+      $("#demo").show();
+    } else {
+      $("#demo").hide();
+    }
+    // Do something
+  });
+  $(window).on("load", function () {
+    var windowSize = $(window).width();
+    if (windowSize < 481) {
+      $(".data-section").addClass("mobileView");
+    } else {
+      $(".data-section").addClass("webView");
+    }
+  });
+
+
+
+});

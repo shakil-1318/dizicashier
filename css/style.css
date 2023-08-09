@@ -110,39 +110,6 @@ textarea {
 }
 
 
-.to-top {
-  background: var(--color-blue);
-  position: fixed;
-  bottom: 16px;
-  right: 32px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 32px;
-  color: var(--color-white);
-  text-decoration: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: all .4s;
-  z-index: 10002;
-}
-
-.to-top i {
-  font-size: 20px;
-}
-
-.to-top:hover {
-  background-color: #01568a;
-}
-
-.to-top.active {
-  bottom: 32px;
-  pointer-events: auto;
-  opacity: 1;
-}
 
 /*============ navbar Section =============*/
 
@@ -1110,3 +1077,71 @@ figure {
 }
 
 /*============ Footer Section =============*/
+
+/* =============Scroll Bar and Demo Request===== */
+
+.to-top {
+  background: var(--color-blue);
+  box-shadow: rgb(0 0 0 / 10%) 0px 1px 6px, rgb(0 0 0 / 20%) 0px 2px 24px;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: var(--color-white);
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .4s;
+  z-index: 10002;
+  background: rgb(0, 119, 192);
+  background: linear-gradient(174deg, rgba(0, 119, 192, 1) 53%, rgba(40, 197, 64, 1) 100%);
+}
+
+.to-top i {
+  font-size: 20px;
+}
+
+.to-top:hover {
+  background-color: #01568a;
+}
+
+.to-top.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+
+
+.demo {
+  position: fixed;
+  bottom: 80px;
+  right: 25px;
+}
+
+.demo a {
+  box-shadow: rgb(0 0 0 / 10%) 0px 1px 6px, rgb(0 0 0 / 20%) 0px 2px 24px;
+  border: none;
+  transition: box-shadow 150ms ease-in-out 0s;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  /* background-image: linear-gradient(-225deg,
+      rgb(117, 93, 213) 35%,
+      rgb(55, 136, 209) 100%); */
+  background: rgb(0, 119, 192);
+  background: linear-gradient(174deg, rgba(0, 119, 192, 1) 53%, rgba(40, 197, 64, 1) 100%);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 30px;
+  transition: all 0.5s ease;
+}
