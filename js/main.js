@@ -1,4 +1,6 @@
-// Testimonial Slider
+
+
+
 // Slider owl carousel
 jQuery(document).ready(function ($) {
   "use strict";
@@ -26,22 +28,7 @@ jQuery(document).ready(function ($) {
   });
 });
 
-// Video PopUp
-$('#herovideo').magnificPopup({
-  type: 'inline',
-  midClick: true
-})
 
-$(document).ready(function () {
-  $('.popup-youtube').magnificPopup({
-    type: 'iframe',
-    mainClass: 'mfp-fade',
-    removalDelay: 160,
-    preloader: false,
-
-    fixedContentPos: false
-  });
-});
 
 
 // Scroll back to top
@@ -60,25 +47,25 @@ var year = document.getElementById('currentYear');
 year.innerHTML = new Date().getFullYear();
 
 
-$(document).ready(function () {
-  $(window).scroll(function (event) {
-    var scroll = $(window).scrollTop();
-    if (scroll > 100) {
-      $("#demo").show();
-    } else {
-      $("#demo").hide();
-    }
-    // Do something
-  });
-  $(window).on("load", function () {
-    var windowSize = $(window).width();
-    if (windowSize < 481) {
-      $(".data-section").addClass("mobileView");
-    } else {
-      $(".data-section").addClass("webView");
-    }
-  });
+// $(document).ready(function () {
+//   $(window).scroll(function (event) {
+//     var scroll = $(window).scrollTop();
+//     if (scroll > 100) {
+//       $("#demo").show();
+//     } else {
+//       $("#demo").hide();
+//     }
+//     // Do something
+//   });
+//   $(window).on("load", function () {
+//     var windowSize = $(window).width();
+//     if (windowSize < 481) {
+//       $(".data-section").addClass("mobileView");
+//     } else {
+//       $(".data-section").addClass("webView");
+//     }
+//   });
 
 
 
-});
+// });

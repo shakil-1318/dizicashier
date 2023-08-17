@@ -17,11 +17,12 @@
   <link href="https://fonts.maateen.me/charukola-ultra-light/font.css" rel="stylesheet">
 
   <!-- Css Link -->
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-  <link rel="stylesheet" href="./css/animate.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
 
   <title>Dizi Cashier | ডিজি ক্যাশিয়ার</title>
 
@@ -75,11 +76,11 @@
       <div class="collapse navbar-collapse text-center" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#package">প্যাকেজ সমূহ</a>
+            <a class="nav-link" href="package.html">প্যাকেজ সমূহ</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="https://dizicashier.com/Industry" id="navbarDropdown"
-              role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ইন্ডাস্ট্রি সমূহ</a>
+            <a class="nav-link dropdown-toggle" href="industry.html" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ইন্ডাস্ট্রি সমূহ</a>
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="https://dizicashier.com/industries-ecommerce">ই-কমার্স ব্যবসা</a>
@@ -95,10 +96,9 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="https://dizicashier.com/Home/About">ডিজি ক্যাশিয়ারের বৈশিষ্ট্য</a>
               <a class="dropdown-item" href="https://dizicashier.com/contact-us">যোগাযোগ করুন</a>
-              <a class="dropdown-item" href="https://dizicashier.com/faq">প্রশ্নোত্তর</a>
-              <a class="dropdown-item" href="https://dizicashier.com/get-demo">ডেমো রিকোয়েস্ট</a>
+              <a class="dropdown-item" href="faq.html">প্রশ্নোত্তর</a>
+              <a class="dropdown-item" href="getdemo.html">ডেমো রিকোয়েস্ট</a>
             </div>
-
           </li>
         </ul>
 
@@ -129,7 +129,7 @@
         </div>
         <div class="col-md-5 ">
           <figure class="hero__video ">
-            <img src="../assets/web_mob.png" alt="">
+            <img src="assets/web_mob.png" alt="">
             <div class="hero__video__in">
               <a class="hero__video__in--btn popup-youtube circle" class="play-btn"
                 href="https://www.youtube.com/watch?v=xfzRv0BFKQI">
@@ -740,7 +740,8 @@
       <div class="row justify-content-center">
         <div class="col-lg-6">
           <div class="package__content text-center">
-            <h2 class="package__content--title sec-title">আমাদের প্রতিনিধির নিকট থেকে সফটওয়্যারটি বুঝে নেওয়ার জন্য নিচের
+            <h2 class="package__content--title sec-title m-0">আমাদের প্রতিনিধির নিকট থেকে সফটওয়্যারটি বুঝে নেওয়ার জন্য
+              নিচের
               ফর্মটি পূরণ করুন</h2>
           </div>
         </div>
@@ -895,7 +896,7 @@
     </svg>
   </a>
 
-  <div id="demo" class="demo  animated slideInRight" title="Get Demo" style="display:none">
+  <div id="demo" class="demo  animated slideInRight" title="Get Demo">
     <a href="#demo-request">
 
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
@@ -911,13 +912,24 @@
 
   <!-- Script js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"> -->
+  <script src="./js/magnific-popup.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-  <script src="./js/popper.min.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-  <script src="./js/main.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.popup-youtube').magnificPopup({
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        // removalDelay: 160,
+        preloader: false,
+
+        fixedContentPos: false
+      });
+    });
+  </script>
 
 
 </body>

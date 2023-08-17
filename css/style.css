@@ -14,13 +14,6 @@
   --color-blue: #0077c0;
   --color-cyan: #17a2b8;
   --color-green: #28c54c;
-  --color-indigo: #6610f2;
-  --color-purple: #6f42c1;
-  --color-pink: #e83e8c;
-  --color-red: #dc3545;
-  --color-orange: #fd7e14;
-  --color-teal: #20c997;
-  --color-dark: #343a40;
   --color-black: #161616;
   --color-light: #f8f9fa;
   --color-white: #ffffff;
@@ -93,7 +86,7 @@ textarea {
 .sec-title {
   font-size: 2.4rem;
   font-weight: 600;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   line-height: 3.6rem;
 }
 
@@ -105,7 +98,7 @@ textarea {
 
 .sec-para {
   font-size: 1.6rem;
-  color: #232323;
+  color: var(--color-text);
   line-height: 3.4rem;
 }
 
@@ -134,7 +127,7 @@ textarea {
 
 .top-nav p a {
   font-size: 1.6rem;
-  color: #232323;
+  color: var(--color-text);
 }
 
 .navbar {
@@ -149,7 +142,7 @@ textarea {
 .navbar-nav .nav-item .nav-link {
   font-size: 1.6rem !important;
   padding: 10px 16px;
-  color: #232323;
+  color: var(--color-text);
   transition: all .2s ease;
 }
 
@@ -241,7 +234,7 @@ textarea {
   font-size: 4rem;
   font-weight: 900;
   color: var(--color-black);
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 .hero__content--para {
@@ -434,12 +427,12 @@ figure {
 }
 
 .single__milestone:hover {
-  box-shadow: 2px 2px 15px rgba(115, 115, 115, 0.4);
+  /* box-shadow: 2px 2px 15px rgba(115, 115, 115, 0.4); */
   transform: scale(1.05);
 }
 
 .single__milestone h5 {
-  margin: 2rem 0 1.2rem 0;
+  margin: 1.5rem 0 1rem 0;
   font-size: 18px;
   text-align: center;
   line-height: 1.6;
@@ -666,7 +659,7 @@ figure {
   padding-top: 1rem;
   margin-bottom: 15px;
   display: inline-block;
-  color: rgb(24, 32, 40);
+  color: var(--color-text);
   transition: all 0.5s ease 0s;
   position: relative;
 }
@@ -979,7 +972,7 @@ figure {
 }
 
 .single_footer_part p {
-  color: #333333;
+  color: var(--color-text);
   line-height: 2.8rem;
   font-size: 1.6rem;
   font-weight: 400;
@@ -1007,7 +1000,7 @@ figure {
   font-size: 1.6rem;
   margin-bottom: 1rem;
   display: inline-block;
-  color: #333333;
+  color: var(--color-text);
   transition: all .3s ease;
 }
 

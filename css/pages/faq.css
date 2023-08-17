@@ -1,0 +1,54 @@
+/* .common__hero {
+  height: 100vh;
+  background-image: url(../../assets/dz_banner_3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+} */
+
+.faq__content {
+  margin-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.faq__single--content {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.faq__content--title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .faq__content {
+    margin-bottom: 4rem;
+  }
+
+  .faq__single--content {
+    max-width: 500px;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .faq__content {
+    margin-bottom: 4rem;
+  }
+
+  .faq__single--content {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .faq__content--title {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+}
