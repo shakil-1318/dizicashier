@@ -886,7 +886,15 @@ figure {
 /*============ Review Section =============*/
 .single__review {
   position: relative;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transition: all .3s ease;
 }
+
+.single__review:hover {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  transform: scale(1.02);
+}
+
 
 .single__review--in--btn {
   position: absolute;
@@ -1138,3 +1146,54 @@ figure {
   font-size: 30px;
   transition: all 0.5s ease;
 }
+
+/* Faq Page Style Start */
+
+
+.faq__content {
+  margin-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.faq__single--content {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.faq__content--title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .faq__content {
+    margin-bottom: 4rem;
+  }
+
+  .faq__single--content {
+    max-width: 500px;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .faq__content {
+    margin-bottom: 4rem;
+  }
+
+  .faq__single--content {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .faq__content--title {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Faq Page Style End */
