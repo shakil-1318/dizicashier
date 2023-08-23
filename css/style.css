@@ -80,14 +80,14 @@ textarea {
   font-size: 3rem;
   font-weight: 900;
   color: var(--color-black);
-  line-height: 1.7;
+  line-height: 3.6rem;
 }
 
 .sec-title {
   font-size: 2.4rem;
   font-weight: 600;
-  margin-bottom: 2rem;
-  line-height: 3.6rem;
+  margin-bottom: 1rem;
+  line-height: 3.4rem;
 }
 
 .sec-sub-title {
@@ -99,7 +99,7 @@ textarea {
 .sec-para {
   font-size: 1.6rem;
   color: var(--color-text);
-  line-height: 3.4rem;
+  line-height: 3rem;
 }
 
 
@@ -1201,3 +1201,94 @@ figure {
 }
 
 /* Faq Page Style End */
+
+/* Industry Ecommerec Page Style Start */
+.cta h5 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  font-weight: 600;
+}
+
+.cta .cta__phone {
+  color: var(--color-blue);
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.divider {
+  margin: 0 20px;
+  width: 2px;
+  height: 20px;
+  background-color: rgb(131, 129, 129);
+}
+
+.benefit__point .package__list {
+  padding: 0;
+  border-bottom: 0;
+}
+
+.package__list-2 {
+  margin-left: 120px;
+}
+
+@media screen and (max-width: 992px) {
+  .package__list-2 {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .package__list-2 {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .package__list-2 {
+    margin-left: 0;
+  }
+
+  .cta h5 {
+    font-size: 1.8rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+  }
+
+  .cta .cta__phone {
+    color: var(--color-blue);
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .divider {
+    margin: 0 10px;
+    width: 2px;
+    height: 20px;
+    background-color: rgb(143, 142, 142);
+  }
+}
+
+
+/* Industry Ecommerec Page Style End */
+
+/* About Page Style Start */
+.about {}
+
+.single__about--content {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+
+  max-width: 500px;
+}
+
+.single__about--content img {
+  width: 65px;
+  height: 65px;
+}
+
+.body__content--para {
+  text-align: justify;
+}
+
+/* About Page Style End */
