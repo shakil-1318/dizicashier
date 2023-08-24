@@ -1314,4 +1314,13 @@ figure {
   }
 }
 
+@media screen and (max-width: 576px) {
+
+  .about__content--title {
+    font-size: 2rem !important;
+    line-height: 3rem !important;
+    font-weight: 700 !important;
+  }
+}
+
 /* About Page Style End */
