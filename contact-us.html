@@ -17,11 +17,12 @@
   <link href="https://fonts.maateen.me/charukola-ultra-light/font.css" rel="stylesheet">
 
   <!-- Css Link -->
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-  <link rel="stylesheet" href="./css/animate.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
 
   <title>Dizi Cashier | ডিজি ক্যাশিয়ার</title>
 
@@ -34,14 +35,6 @@
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <div class="col-auto">
-          <!-- <p>
-            <i class="fa-solid fa-phone"></i>
-            <a href="tel:015 3333 4444"><span> 015 3333 4444 </span></a>
-          </p>
-          <p>
-            <i class="fa-solid fa-phone"></i>
-            <a href="tel:015 4444 5555"><span> 015 4444 5555 </span></a>
-          </p> -->
         </div>
         <div class="col-auto d-flex align-items-center flex-wrap">
           <p>
@@ -55,10 +48,6 @@
             <i class="fa-solid fa-globe"></i>
             <a href="#"> <span>BN</span></a>
           </p>
-          <!-- <div class="language__select">
-            <i class="fa-solid fa-globe"></i>
-            <span>EN/BN</span>
-          </div> -->
         </div>
       </div>
     </div>
@@ -93,7 +82,7 @@
               aria-haspopup="true" aria-expanded="false">অন্যান্য</a>
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="https://dizicashier.com/Home/About">ডিজি ক্যাশিয়ারের বৈশিষ্ট্য</a>
+              <a class="dropdown-item" href="about.html">ডিজি ক্যাশিয়ারের বৈশিষ্ট্য</a>
               <a class="dropdown-item" href="https://dizicashier.com/contact-us">যোগাযোগ করুন</a>
               <a class="dropdown-item" href="faq.html">প্রশ্নোত্তর</a>
               <a class="dropdown-item" href="getdemo.html">ডেমো রিকোয়েস্ট</a>
@@ -114,49 +103,102 @@
 
   <section class="common__hero">
     <img width="100%" loading="lazy" src="./assets/dz_banner_3.jpg" alt="dizixashier banner">
-
   </section>
 
   <!-- Common Hero section End-->
 
-  <!-- Faq content section start -->
-  <section class="faq padd">
+  <section class="contact padd">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-6 ">
-          <div class="faq__content text-center">
-            <h2 class="faq__title sec-head-title">ডিজি ক্যাশিয়ার সম্পর্কে প্রশ্নের উত্তর জানুন</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="contact__content">
+            <div class="contact-address">
+              <h5>যোগাযোগের ঠিকানা</h5>
+              <p>বাড়ি-১৯, রোড-২০ <br>
+                সেক্টর - ১৩, উত্তরা, ঢাকা- ১২৩০</p>
+            </div>
+            <div class="contact-phone">
+              <h5>ফোন নম্বর</h5>
+              <div>
+                <h6>সেলস এবং মার্কেটিং:</h6>
+                <ul class="list-unstyled">
+                  <div class="d-flex align-items-center">
+                    <li><i class="fa-solid fa-phone"></i><a href="tel:+88015 3333 4444">015 3333 4444 , </a>
+                    </li>
+                    <li class="ms-3"><a href="tel:+88015 4444 5555">015 4444 5555</a></li>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/1533334444">015 3333 4444 , </a>
+                    </li>
+                    <li class="ms-3"><a href="https://wa.me/1544445555">015 4444 5555</a></li>
+                  </div>
+                </ul>
+              </div>
+
+              <div>
+                <h6>সাপোর্ট:</h6>
+                <ul class="list-unstyled">
+                  <div class="d-flex align-items-center">
+                    <li><i class="fa-solid fa-phone"></i><a href="tel:+88014 0400 9081">014 0400 9081 , </a>
+                    </li>
+                    <li class="ms-3"><a href="tel:+88014 0400 9082">014 0400 9082</a></li>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/1404009081">014 0400 9081 , </a>
+                    </li>
+                    <li class="ms-3"><a href="https://wa.me/1404009082">014 0400 9082</a></li>
+                  </div>
+                </ul>
+              </div>
+
+            </div>
+            <div class="contact-hours">
+              <h5>কর্মঘন্টা</h5>
+              <p>রবি- বৃহস্পতি সকাল ৯ টা থেকে সন্ধ্যা ৭ টা</p>
+            </div>
           </div>
+        </div>
+
+        <div class="col-lg-6 mt-lg-0 mt-md-5 mt-5">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control shadow-none" id="name" placeholder="আপনার নাম*" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" class="form-control shadow-none" id="email" placeholder="ইমেইল এড্রেস*" required>
+            </div>
+            <div class="col-md-12">
+              <select id="inputState" class="form-select shadow-none">
+                <option selected>যে বিষয়ে প্রশ্ন করতে চান.</option>
+                <option>রেজিস্ট্রেশন/অনুমোদন</option>
+                <option>ডিজি ক্যাশিয়ার ব্যবহার সম্পর্কে</option>
+                <option>সমস্যা সমাধান</option>
+                <option>ব্যাক আপ/ পুনরুদ্ধার</option>
+                <option>অন্যান্য</option>
+              </select>
+            </div>
+            <div class="col-md-12">
+              <textarea class="form-control shadow-none message" name="message" placeholder="আপনার বার্তা" id="message"
+                rows="4" cols="50"></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">বার্তা প্রেরণ করুন</button>
+            </div>
+          </form>
         </div>
       </div>
 
-      <div class="row justify-content-between">
-        <div class="col-lg-6 col-md-6">
-          <div class="faq__single--content">
-            <h3 class="faq__content--title">ডিজি ক্যাশিয়ার কীভাবে কাজ করে?</h3>
-            <p class="faq__content--para sec-para">ডিজি ক্যাশিয়ার বেসিক অ্যাকাউন্টিং এর উপর ভিত্তি করে। এটি
-              অ্যাকাউন্টিংয়ের নিয়ম অনুসরণ করে যাতে এটি আপনার ব্যবসায়ের যথার্থতা লেনদেন নিশ্চিত করতে পারে।</p>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6">
-          <div class="faq__single--content">
-            <h3 class="faq__content--title">ডিজি ক্যাশিয়ার কীভাবে কাজ করে?</h3>
-            <p class="faq__content--para sec-para">ডিজি ক্যাশিয়ার বেসিক অ্যাকাউন্টিং এর উপর ভিত্তি করে। এটি
-              অ্যাকাউন্টিংয়ের নিয়ম অনুসরণ করে যাতে এটি আপনার ব্যবসায়ের যথার্থতা লেনদেন নিশ্চিত করতে পারে।</p>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="faq__single--content">
-            <h3 class="faq__content--title">ডিজি ক্যাশিয়ার কীভাবে কাজ করে?</h3>
-            <p class="faq__content--para sec-para">ডিজি ক্যাশিয়ার বেসিক অ্যাকাউন্টিং এর উপর ভিত্তি করে। এটি
-              অ্যাকাউন্টিংয়ের নিয়ম অনুসরণ করে যাতে এটি আপনার ব্যবসায়ের যথার্থতা লেনদেন নিশ্চিত করতে পারে।</p>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-12">
+          <div class="contact-map mt-5">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58376.74053945208!2d90.385914!3d23.87024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c57027dff25b%3A0xec8a29895bdf27dc!2sDIZI%20NOVA!5e0!3m2!1sen!2sus!4v1692866170046!5m2!1sen!2sus"
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- Faq content section end -->
-
 
 
 
@@ -262,16 +304,15 @@
 
 
 
-
   <!-- Script js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"> -->
+  <script src="./js/magnific-popup.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-  <script src="./js/popper.min.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-  <script src="./js/main.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/main.js"></script>
+
+
 
 
 </body>
