@@ -1272,7 +1272,9 @@ figure {
 /* Industry Ecommerec Page Style End */
 
 /* About Page Style Start */
-.about {}
+.about {
+  background-color: var(--color-light);
+}
 
 .single__about--content {
   display: flex;
@@ -1289,6 +1291,27 @@ figure {
 
 .body__content--para {
   text-align: justify;
+  margin: 0;
+}
+
+.report img {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .single__about--content {
+    flex-direction: column;
+    gap: 2rem;
+
+    max-width: 310px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .single__about--content {
+    max-width: none;
+  }
 }
 
 /* About Page Style End */
