@@ -1118,7 +1118,7 @@ figure {
 }
 
 .to-top.active {
-  bottom: 100px;
+  bottom: 155px;
   pointer-events: auto;
   opacity: 1;
 }
@@ -1127,9 +1127,9 @@ figure {
 
 .demo {
   position: fixed;
-  bottom: 155px;
+  bottom: 100px;
   right: 25px;
-  z-index: 10000;
+  z-index: 100003;
 }
 
 .demo a {
