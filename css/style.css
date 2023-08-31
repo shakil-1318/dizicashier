@@ -611,7 +611,7 @@ figure {
 .package__list {
   padding: 1.5rem 2rem 1.5rem;
   text-align: left;
-  border-bottom: 1px solid var(--color-border);
+  /* border-bottom: 1px solid var(--color-border); */
 }
 
 .package__list li {
@@ -1282,6 +1282,7 @@ figure {
 .service__lists {
   display: flex;
   padding-left: 0 !important;
+  gap: 2rem;
 }
 
 .service__list li {
@@ -1314,13 +1315,10 @@ figure {
   object-fit: cover;
 }
 
-.service__card--body {
-  padding: 20px;
-}
-
-.bg-color {
+.benefit {
   background-color: #F7F7FD;
 }
+
 
 
 /* Industry Ecommerec Page Style End */
