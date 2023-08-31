@@ -29,8 +29,8 @@
 body {
   background-color: var(--color-white);
   font-size: 1.6rem;
-  /* font-family: 'SolaimanLipi', sans-serif; */
-  font-family: 'Noto Serif Bengali', serif;
+  font-family: 'SolaimanLipi', sans-serif;
+  /* font-family: 'Noto Serif Bengali', serif; */
   line-height: 1.6;
 }
 
@@ -1228,7 +1228,7 @@ figure {
 
 /* Industry Ecommerec Page Style Start */
 .common__hero {
-  min-height: 40vh;
+  min-height: 70vh;
   background-color: #F7F7FD;
 }
 
@@ -1253,7 +1253,7 @@ figure {
 }
 
 
-.common__hero--img {
+/* .common__hero--img {
   width: 100%;
   background: #ffffff;
   box-shadow: 0 15px 40px 5px rgba(132, 132, 133, 0.15);
@@ -1277,7 +1277,7 @@ figure {
 
 .common__hero--img:hover img {
   transform: scale(1.01);
-}
+} */
 
 .service__lists {
   display: flex;
