@@ -848,7 +848,7 @@ figure {
   /* box-shadow: var(--color-box-shadow); */
   box-shadow: 2px 2px 15px rgba(115, 115, 115, 0.5);
   border-radius: .5rem;
-  padding: 0 2rem 2rem 2rem;
+  padding: 2rem;
   transition: all .3s ease;
 }
 
@@ -859,13 +859,13 @@ figure {
 .single__industry--img {
   height: 200px;
   margin-bottom: 3rem;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 
 .single__industry img {
   object-fit: cover;
-  width: 90%;
+  width: 100%;
 
 }
 
