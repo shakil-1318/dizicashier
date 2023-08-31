@@ -1228,7 +1228,7 @@ figure {
 
 /* Industry Ecommerec Page Style Start */
 .common__hero {
-  min-height: 70vh;
+  /* min-height: 70vh; */
   background-color: #F7F7FD;
 }
 
