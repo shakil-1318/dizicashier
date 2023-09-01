@@ -1307,13 +1307,14 @@ figure {
 }
 
 .service__img {
-  width: 90%;
+  width: 410px;
+  height: 305px;
 }
 
-.service__img img {
+/* .service__img img {
   width: 100%;
   object-fit: cover;
-}
+} */
 
 .benefit {
   background-color: #F7F7FD;
