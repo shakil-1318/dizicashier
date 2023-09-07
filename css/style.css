@@ -1238,7 +1238,7 @@ figure {
   margin: 0 auto;
 }
 
-.common__hero--content {
+.common__hero--content__title-wrap {
   max-width: 500px;
 }
 
