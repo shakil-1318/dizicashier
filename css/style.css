@@ -1112,8 +1112,8 @@ figure {
   background: var(--color-blue);
   box-shadow: rgb(0 0 0 / 10%) 0px 1px 6px, rgb(0 0 0 / 20%) 0px 2px 24px;
   position: fixed;
-  bottom: 100px;
-  right: 45px;
+  bottom: 0px;
+  right: 116px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -1141,8 +1141,8 @@ figure {
 } */
 
 .to-top.active {
-  bottom: 100px;
-  right: 45px;
+  bottom: 30px;
+  right: 116px;
   pointer-events: auto;
   opacity: 1;
 }
@@ -1151,8 +1151,8 @@ figure {
 
 .demo {
   position: fixed;
-  bottom: 165px;
-  right: 38px;
+  bottom: 100px;
+  right: 25px;
   z-index: 100003;
 }
 
