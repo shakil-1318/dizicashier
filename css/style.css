@@ -102,6 +102,7 @@ textarea {
   font-size: 1.6rem;
   color: var(--color-text);
   line-height: 3rem;
+  /* text-align: justify; */
 }
 
 
@@ -1332,9 +1333,13 @@ figure {
   margin: 0;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .report img {
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
 }
 
 @media screen and (max-width: 992px) {
