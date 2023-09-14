@@ -752,6 +752,54 @@ figure {
   top: 20%;
 }
 
+/* Mobile Package Style */
+
+
+
+.package-mobile {
+  display: none;
+}
+
+
+@media screen and (max-width: 576px) {
+  .package-mobile {
+    display: block;
+  }
+
+  .package-desktop {
+    display: none;
+  }
+}
+
+.single__package--content--mobile {
+  text-align: center;
+}
+
+.single__package-mobile {
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: 2px 2px 15px rgba(115, 115, 115, 0.4);
+}
+
+.package__btn-mobile {
+  text-align: center !important;
+  display: block !important;
+  padding: 20px;
+}
+
+.single__package .package__btn-mobile::after {
+  height: 0;
+  width: 0;
+}
+
+
+
+.ribbon-wrapper-mobile {
+  left: -6px !important;
+}
+
+/* Mobile Package Style */
+
 
 /*============ Package Section =============*/
 
