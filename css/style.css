@@ -729,6 +729,7 @@ figure {
 
 .package-mobile {
   display: none;
+  overflow: hidden;
 }
 
 .owl-carousel .owl-stage-outer {
@@ -784,6 +785,9 @@ figure {
 
 
 /*============ Testimonial Section =============*/
+.testimonials {
+  overflow: hidden !important;
+}
 
 .shadow-effect {
   background: #fff;
