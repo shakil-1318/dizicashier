@@ -731,6 +731,9 @@ figure {
   display: none;
 }
 
+.owl-carousel .owl-stage-outer {
+  overflow: visible !important;
+}
 
 @media screen and (max-width: 576px) {
   .package-mobile {

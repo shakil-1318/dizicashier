@@ -10,7 +10,6 @@ jQuery(document).ready(function ($) {
     center: true,
     items: 1,
     margin: 0,
-    autoplay: true,
     dots: true,
     autoplayTimeout: 4500,
     smartSpeed: 450,
