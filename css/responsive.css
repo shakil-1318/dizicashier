@@ -148,6 +148,11 @@
      padding: 20px 20px;
    }
 
+   .service__img {
+     display: flex;
+     justify-content: center;
+   }
+
    .service__content {
      max-width: none;
    }
@@ -320,6 +325,11 @@
    /*============ Service Section =============*/
    .services {
      padding: 20px 20px;
+   }
+
+   .service__img {
+     display: flex;
+     justify-content: center;
    }
 
    .service__content {
