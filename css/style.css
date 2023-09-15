@@ -538,6 +538,10 @@ figure {
   transform: translateY(-3px) !important;
 }
 
+.service__img img {
+  max-width: 75%;
+}
+
 /*============ Services Section =============*/
 
 
@@ -779,6 +783,11 @@ figure {
   margin-right: 10px;
   margin-left: 10px;
   box-shadow: 2px 2px 15px rgba(115, 115, 115, 0.4);
+}
+
+.single__package-mobile:hover {
+  box-shadow: 2px 2px 15px rgba(115, 115, 115, 0.4);
+  transform: scale(1) !important;
 }
 
 .package__btn-mobile {
@@ -1094,7 +1103,7 @@ figure {
 
 .copyright {
   padding: 20px 0;
-  background-color: #283353;
+  background-color: var(--color-blue);
 }
 
 .copyright_text p {
@@ -1469,3 +1478,106 @@ iframe {
 }
 
 /* Contact US style End */
+
+/* Terms & Condition Start */
+.terms-condition__body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.c__title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.non-transferability-policy ol li {
+  list-style: block;
+}
+
+
+/* Terms & Condition End */
+/* ABout Us Start */
+.about-us img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.our-story {
+  margin: 4rem 0;
+}
+
+.team-dizi {
+  margin-bottom: 4rem;
+}
+
+.team-dizi-title {
+  margin-bottom: 2rem;
+}
+
+.team-pic {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.team-pic img {
+  height: 300px;
+  object-fit: cover;
+}
+
+
+.team-pic:hover img {
+  transform: scale(1.03);
+  transition: all .3s ease;
+}
+
+.make-different {
+  margin-bottom: 2rem;
+}
+
+.make-different-content-title {
+  margin-bottom: 2rem;
+}
+
+
+
+.make-different-content span {
+  font-weight: 600;
+}
+
+.make-different-pic {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.make-different-pic img {
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 576px) {
+  .about-us img {
+    height: 250px;
+  }
+
+  .our-story {
+    margin: 2rem 0;
+  }
+
+  .team-pic img {
+    height: 200px;
+    object-fit: cover;
+
+  }
+
+  .make-different-content-title {
+    margin-top: 2rem;
+  }
+
+  .make-different-pic {
+    gap: 2rem;
+  }
+}
+
+/* ABout Us End */
