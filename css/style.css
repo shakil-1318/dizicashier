@@ -213,7 +213,6 @@ textarea {
   border-bottom: none;
 }
 
-.dropdown .dropdown-menu .dropdown-item:hover {}
 
 
 .dropdown:hover .dropdown-menu {
@@ -349,33 +348,7 @@ figure {
   font-size: 3.5rem;
 }
 
-/* @-webkit-keyframes beat {
-  0% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
 
-  100% {
-    opacity: 0;
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-  }
-}
-
-@keyframes beat {
-  0% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-
-  100% {
-    opacity: 0;
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-  }
-} */
 
 .banner__text-moto {
   width: 300px !important;
@@ -419,7 +392,6 @@ figure {
 
 
 /*============ milestone Section =============*/
-.milestone {}
 
 .single__milestone {
   display: flex;
@@ -457,7 +429,6 @@ figure {
   color: var(--color-blue);
 }
 
-.single__milestone img {}
 
 .single__milestone--img {
   width: 47px;
@@ -553,10 +524,6 @@ figure {
 .package__content {
   margin-bottom: 6rem;
 }
-
-.package__content--title {}
-
-.package__content--para {}
 
 .package .single__package {
   box-shadow: 2px 2px 15px rgba(115, 115, 115, 0.4);
@@ -814,7 +781,6 @@ figure {
 
 
 /*============ Testimonial Section =============*/
-.testimonials {}
 
 .shadow-effect {
   background: #fff;
@@ -928,13 +894,6 @@ figure {
 
 }
 
-/* .single__industry:hover img {
-  transform: scale(1.05);
-} */
-
-.industry__content {
-  /* padding: 0 2rem 2rem 2rem; */
-}
 
 .industry__content--title {
   font-size: 2rem;
@@ -1024,7 +983,6 @@ figure {
 
 
 /*============ Login Section =============*/
-.login {}
 
 .form-control {
   padding: 1.2rem 1rem;
@@ -1426,7 +1384,6 @@ figure {
 /* About Page Style End */
 
 /* Contact US style Start */
-.contact {}
 
 .contact__content {
   display: flex;
@@ -1434,7 +1391,6 @@ figure {
   gap: 1rem;
 }
 
-.contact-address {}
 
 .contact-address h5,
 .contact-phone h5,
@@ -1557,6 +1513,10 @@ iframe {
 }
 
 @media screen and (max-width: 576px) {
+  .c-padd {
+    padding: 0 20px;
+  }
+
   .about-us img {
     height: 250px;
   }
