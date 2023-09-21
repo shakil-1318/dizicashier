@@ -398,7 +398,7 @@ figure {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-height: 180px;
+  min-height: 180px;
   padding: 2rem 0.5rem;
   transition: all .2s ease-in-out;
   overflow: hidden;
