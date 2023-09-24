@@ -1136,7 +1136,7 @@ figure {
   box-shadow: rgb(0 0 0 / 10%) 0px 1px 6px, rgb(0 0 0 / 20%) 0px 2px 24px;
   position: fixed;
   bottom: 0px;
-  right: 32px;
+  right: 100px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -1151,21 +1151,18 @@ figure {
   transition: all .4s;
   z-index: 10002;
   background-color: var(--color-green);
-  /* background: rgb(0, 119, 192);
-  background: linear-gradient(174deg, rgba(0, 119, 192, 1) 53%, rgba(40, 197, 64, 1) 100%); */
+
 }
 
 .to-top i {
   font-size: 20px;
 }
 
-/* .to-top:hover {
-  background-color: #01568a;
-} */
+
 
 .to-top.active {
-  bottom: 20px;
-  right: 32px;
+  bottom: 75px;
+  right: 100px;
   pointer-events: auto;
   opacity: 1;
 }
@@ -1186,11 +1183,7 @@ figure {
   border-radius: 50%;
   height: 60px;
   width: 60px;
-  /* background-image: linear-gradient(-225deg,
-      rgb(117, 93, 213) 35%,
-      rgb(55, 136, 209) 100%); */
-  /* background: rgb(0, 119, 192);
-  background: linear-gradient(174deg, rgba(0, 119, 192, 1) 53%, rgba(40, 197, 64, 1) 100%); */
+
   background-color: var(--color-green);
   text-decoration: none;
   display: flex;
